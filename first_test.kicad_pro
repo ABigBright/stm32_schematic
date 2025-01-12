@@ -451,7 +451,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.0,
+        "clearance": 0.12,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -479,8 +479,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "../../../../Applications/KiCad/",
-      "plot": "",
-      "pos_files": "",
+      "plot": "/Volumes/studio/kicad/first_test/",
+      "pos_files": "/Volumes/studio/kicad/first_test/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -490,7 +490,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "first_test.bom",
+    "bom_export_filename": "first_test.bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
