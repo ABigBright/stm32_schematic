@@ -415,6 +415,116 @@
 			)
 		)
 	)
+	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
+		(layer "F.Cu")
+		(uuid "066a8bf7-a23a-4b2b-8183-d1817459569f")
+		(at 93 65)
+		(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
+		(tags "fiducial")
+		(property "Reference" "REF**"
+			(at 4 -3.5 0)
+			(layer "F.SilkS")
+			(uuid "94b4c27a-f541-491d-83d4-b79c7bfb6af7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Fiducial_1mm_Mask2mm"
+			(at 0 2 0)
+			(layer "F.Fab")
+			(uuid "ee35b141-36ba-46d8-b838-68bc57dd1db6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d64c84f-1dad-4ae2-8de3-1509715f7b6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2fbcb270-ed1b-4217-9634-f7c63500b5de")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb6d22ef-05c6-48ec-930a-eb0da5c06b1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "b7ca4b3a-48c0-43d2-95d6-17c95e6b3f18")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "a0839ed3-a8f3-4703-83be-861f27858ffa")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "bc9313b6-d7bd-49af-b33e-f95403550aee")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Mask")
+			(solder_mask_margin 0.5)
+			(clearance 0.5)
+			(uuid "d23b7ece-8b73-4017-90cb-64bd2b38a904")
+		)
+	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "0917300e-7c42-4581-b3b2-ba5935a88f47")
@@ -883,6 +993,116 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
+		(layer "F.Cu")
+		(uuid "0eb5f600-4575-47e1-ac3e-6e0a4ed86601")
+		(at 122 62.5)
+		(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
+		(tags "fiducial")
+		(property "Reference" "REF**"
+			(at -3.5 0 0)
+			(layer "F.SilkS")
+			(uuid "64826da4-9e05-4211-a09c-735ebf95c4fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Fiducial_1mm_Mask2mm"
+			(at 0 2 0)
+			(layer "F.Fab")
+			(uuid "2599cb1c-96dd-4152-a3cd-313d8f9620f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2729a80c-64a2-4612-8836-b1fe657e790d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74b1a0e3-71c5-4a2f-9974-8edf3b341ba5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c3cf372-6360-47b5-9a5f-056f8f390858")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "ad864f9a-00f9-4304-b164-0c920584c55d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "aa2057c7-f6c7-41d7-9e52-e398842aa453")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "424bbf71-65d1-4376-87ce-91dafc4120dd")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Mask")
+			(solder_mask_margin 0.5)
+			(clearance 0.5)
+			(uuid "d5be6b2a-8327-49b6-b38c-6f11d4ea9ec6")
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
@@ -2321,6 +2541,116 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
+		(layer "F.Cu")
+		(uuid "4fabf8ab-c0a0-4abb-b7b6-ee65e2f63599")
+		(at 124 98.5)
+		(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
+		(tags "fiducial")
+		(property "Reference" "REF**"
+			(at 1.5 -2.5 0)
+			(layer "F.SilkS")
+			(uuid "220f3102-aadd-48af-8a6d-12108f70e028")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Fiducial_1mm_Mask2mm"
+			(at 0 2 0)
+			(layer "F.Fab")
+			(uuid "3801129f-86a2-4480-9d98-4bab94ce052d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "309c3b59-408b-41cc-baf3-abc89274c821")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ddbbe23d-6325-4759-afc8-93992e569690")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0aea0205-5aab-46da-92ed-3325209f5881")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "f65eb32e-94c9-40a4-8c89-c14cdbcb2842")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "50ae8dc4-13ef-45f5-a531-23053c8843a7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "152b5360-b45a-441c-bc9d-616a02649814")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Mask")
+			(solder_mask_margin 0.5)
+			(clearance 0.5)
+			(uuid "483d5d82-6137-410e-af0b-492e26450046")
 		)
 	)
 	(footprint "Capacitor_SMD:CP_Elec_8x10.5"
@@ -7684,558 +8014,13 @@
 		(uuid "f72644d5-b3cd-43dc-bb1d-e101a3f60f3b")
 	)
 	(zone
-		(net 5)
-		(net_name "+3.3V")
-		(layer "F.Cu")
-		(uuid "02696092-7091-4a52-94b8-3c16e8272162")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30047)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 116.998224 70.135155) (xy 117.139645 70.276576) (xy 117.918719 70.2375) (xy 117.913207 70.086793)
-				(xy 117.175 70.039422)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 117.902651 70.086115) (xy 117.910687 70.090065) (xy 117.913593 70.097363) (xy 117.918297 70.225965)
-				(xy 117.915175 70.234358) (xy 117.907191 70.238078) (xy 117.144831 70.276315) (xy 117.136397 70.273307)
-				(xy 117.135972 70.272903) (xy 117.009315 70.146246) (xy 117.005888 70.137973) (xy 117.009315 70.1297)
-				(xy 117.012011 70.127688) (xy 117.172041 70.041024) (xy 117.178357 70.039637)
-			)
-		)
-	)
-	(zone
-		(net 2)
-		(net_name "/osc_in")
-		(layer "F.Cu")
-		(uuid "03e6f3c6-d1e2-458b-9730-b284bbd87e46")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30012)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 104.008021 63.8584) (xy 103.8666 63.716979) (xy 103.063604 64.025) (xy 103.224293 64.500707)
-				(xy 103.675 64.686396)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 103.868459 63.719936) (xy 103.871971 63.72235) (xy 104.002554 63.852933) (xy 104.005981 63.861206)
-				(xy 104.005136 63.865572) (xy 103.679402 64.675449) (xy 103.673135 64.681846) (xy 103.664181 64.681938)
-				(xy 103.66409 64.681901) (xy 103.229216 64.502735) (xy 103.222872 64.496415) (xy 103.222592 64.495674)
-				(xy 103.067199 64.035642) (xy 103.067798 64.026709) (xy 103.074091 64.020976) (xy 103.859509 63.719699)
-			)
-		)
-	)
-	(zone
-		(net 5)
-		(net_name "+3.3V")
-		(layer "F.Cu")
-		(uuid "05616e48-9f4d-4815-8e76-5eb64cad1ceb")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30013)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 105.1334 82.216979) (xy 104.991979 82.3584) (xy 105.325 83.186396) (xy 105.775707 83.000707)
-				(xy 105.936396 82.525)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 105.14049 82.219698) (xy 105.925906 82.520976) (xy 105.932402 82.527138) (xy 105.9328 82.535643)
-				(xy 105.777411 82.995661) (xy 105.771516 83.002403) (xy 105.770783 83.002735) (xy 105.335909 83.181901)
-				(xy 105.326954 83.181884) (xy 105.320634 83.17554) (xy 105.320597 83.175449) (xy 105.250998 83.002403)
-				(xy 104.994863 82.36557) (xy 104.994955 82.356618) (xy 104.997442 82.352936) (xy 105.128029 82.222349)
-				(xy 105.136301 82.218923)
-			)
-		)
-	)
-	(zone
-		(net 5)
-		(net_name "+3.3V")
-		(layer "F.Cu")
-		(uuid "078dfceb-62ec-47c5-b193-1bafe37cc79e")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30022)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 103.225 80.375) (xy 103.425 80.375) (xy 103.709776 79.851537) (xy 103.325 79.499) (xy 102.940224 79.851537)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 103.332902 79.50624) (xy 103.703029 79.845355) (xy 103.706814 79.853471) (xy 103.705403 79.859573)
-				(xy 103.428323 80.368891) (xy 103.421359 80.374521) (xy 103.418045 80.375) (xy 103.231955 80.375)
-				(xy 103.223682 80.371573) (xy 103.221677 80.368891) (xy 102.944596 79.859573) (xy 102.943653 79.850668)
-				(xy 102.946968 79.845357) (xy 103.317097 79.50624) (xy 103.325511 79.503179)
-			)
-		)
-	)
-	(zone
-		(net 5)
-		(net_name "+3.3V")
-		(layer "F.Cu")
-		(uuid "0b3b13ef-b178-4614-bb40-3107f7266435")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30052)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 116.6217 76.1125) (xy 116.4217 76.1125) (xy 116.367284 76.291475) (xy 116.5 77.001) (xy 116.65 76.3375)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 116.619652 76.115927) (xy 116.622988 76.12274) (xy 116.649743 76.335464) (xy 116.649546 76.339504)
-				(xy 116.512494 76.945731) (xy 116.507327 76.953045) (xy 116.498502 76.954563) (xy 116.491188 76.949396)
-				(xy 116.489582 76.945305) (xy 116.36781 76.294287) (xy 116.368117 76.288734) (xy 116.418587 76.12274)
-				(xy 116.419177 76.120796) (xy 116.424862 76.113878) (xy 116.430371 76.1125) (xy 116.611379 76.1125)
-			)
-		)
-	)
-	(zone
-		(net 5)
-		(net_name "+3.3V")
-		(layer "F.Cu")
-		(uuid "1865499a-773e-41f3-8df1-a20452417150")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30019)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 105.675 83.925) (xy 105.875 83.925) (xy 106.207873 83.336104) (xy 105.775 82.999) (xy 105.342127 83.336104)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 105.782187 83.004597) (xy 106.19991 83.329903) (xy 106.204332 83.337689) (xy 106.202906 83.34489)
-				(xy 105.878359 83.919057) (xy 105.871305 83.924573) (xy 105.868174 83.925) (xy 105.681826 83.925)
-				(xy 105.673553 83.921573) (xy 105.671641 83.919057) (xy 105.347093 83.34489) (xy 105.346005 83.336002)
-				(xy 105.350086 83.329905) (xy 105.767811 83.004597) (xy 105.776444 83.002218)
-			)
-		)
-	)
-	(zone
 		(net 1)
 		(net_name "GND")
 		(layer "F.Cu")
-		(uuid "23d9c2c8-780a-444d-8c33-7cf9ffa7c187")
+		(uuid "0330736e-cac2-45fe-84b5-9c7378ee718e")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
-		(priority 30035)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 109.45 92.9427) (xy 109.25 92.9427) (xy 109.072836 93.427895) (xy 109.35 93.5437) (xy 109.627164 93.427895)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 109.627164 93.427895) (xy 109.35 93.5437) (xy 109.072836 93.427895) (xy 109.25 92.9427) (xy 109.45 92.9427)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "F.Cu")
-		(uuid "255801e6-2d2c-4e39-8774-a2399e683416")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30042)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 109.844974 84.846447) (xy 109.703553 84.705026) (xy 109.235195 84.922836) (xy 109.349293 85.200707)
-				(xy 109.627164 85.314805)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 109.844974 84.846447) (xy 109.627164 85.314805) (xy 109.349293 85.200707) (xy 109.235195 84.922836)
-				(xy 109.703553 84.705026)
-			)
-		)
-	)
-	(zone
-		(net 5)
-		(net_name "+3.3V")
-		(layer "F.Cu")
-		(uuid "26b0006e-1dac-4a95-a57f-90af716d8892")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30010)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 121.288315 75.531064) (xy 121.429736 75.672485) (xy 122.549719 75.942798) (xy 122.875707 75.156793)
-				(xy 122.273959 74.556459)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 122.282185 74.564666) (xy 122.870162 75.151261) (xy 122.873599 75.15953) (xy 122.872706 75.164026)
-				(xy 122.55355 75.93356) (xy 122.547216 75.939889) (xy 122.539998 75.940451) (xy 121.432936 75.673257)
-				(xy 121.427408 75.670157) (xy 121.296634 75.539383) (xy 121.293207 75.53111) (xy 121.296633 75.522838)
-				(xy 122.265696 74.564628) (xy 122.273988 74.561249)
-			)
-		)
-	)
-	(zone
-		(net 3)
-		(net_name "/osc_out")
-		(layer "F.Cu")
-		(uuid "28a1ba74-4fd8-43d9-9e32-97a68821976b")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30016)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 102.325 74.4) (xy 102.325 74.6) (xy 102.902113 74.95) (xy 103.226 74.5) (xy 102.902113 74.05)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 102.908429 74.058776) (xy 103.22108 74.493165) (xy 103.223132 74.501882) (xy 103.22108 74.506835)
-				(xy 102.908429 74.941223) (xy 102.900815 74.945936) (xy 102.892866 74.944392) (xy 102.330633 74.603416)
-				(xy 102.325336 74.596196) (xy 102.325 74.593412) (xy 102.325 74.406587) (xy 102.328427 74.398314)
-				(xy 102.330628 74.396586) (xy 102.892868 74.055606) (xy 102.901717 74.054247)
-			)
-		)
-	)
-	(zone
-		(net 41)
-		(net_name "/swclk")
-		(layer "F.Cu")
-		(uuid "301e019e-14ea-4d58-92b9-7b1548c471ee")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30008)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 121.429736 69.562515) (xy 121.288315 69.703936) (xy 122.273959 70.678541) (xy 122.875707 70.078207)
-				(xy 122.549719 69.292202)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 122.548844 69.295938) (xy 122.55355 69.301439) (xy 122.872706 70.070973) (xy 122.87271 70.079928)
-				(xy 122.870162 70.083738) (xy 122.282185 70.670333) (xy 122.273908 70.67375) (xy 122.265696 70.67037)
-				(xy 121.659509 70.070973) (xy 121.29668 69.712207) (xy 121.293207 69.703955) (xy 121.296586 69.695664)
-				(xy 121.42741 69.56484) (xy 121.432933 69.561743) (xy 122.539998 69.294548)
-			)
-		)
-	)
-	(zone
-		(net 5)
-		(net_name "+3.3V")
-		(layer "F.Cu")
-		(uuid "31231005-df04-4981-9381-3d43649a0218")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30051)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 110.475 74.1875) (xy 110.475 73.9875) (xy 110.278701 73.943209) (xy 109.5865 74.0875) (xy 110.278701 74.231791)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 110.281178 73.943768) (xy 110.369697 73.96374) (xy 110.465875 73.985441) (xy 110.473191 73.990605)
-				(xy 110.475 73.996854) (xy 110.475 74.178145) (xy 110.471573 74.186418) (xy 110.465875 74.189558)
-				(xy 110.281178 74.231231) (xy 110.276215 74.231272) (xy 109.750216 74.121627) (xy 109.641446 74.098953)
-				(xy 109.634048 74.093911) (xy 109.632381 74.085112) (xy 109.637424 74.077713) (xy 109.641446 74.076046)
-				(xy 110.276215 73.943727)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "F.Cu")
-		(uuid "332a4df9-e899-4ec8-be52-fc4095d150c5")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30037)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 114.8625 94.1427) (xy 115.0625 94.1427) (xy 115.239664 93.657505) (xy 114.9625 93.5417) (xy 114.685336 93.657505)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 115.239664 93.657505) (xy 115.0625 94.1427) (xy 114.8625 94.1427) (xy 114.685336 93.657505)
-				(xy 114.9625 93.5417)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "F.Cu")
-		(uuid "38627487-7233-4693-9297-1827bdf8c577")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30038)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 121.1875 93.0358) (xy 121.3875 93.0358) (xy 121.564664 92.550605) (xy 121.2875 92.4348) (xy 121.010336 92.550605)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 121.564664 92.550605) (xy 121.3875 93.0358) (xy 121.1875 93.0358) (xy 121.010336 92.550605)
-				(xy 121.2875 92.4348)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "F.Cu")
-		(uuid "4790fd3e-d1df-4c81-a6ce-edc6c9c8be04")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30040)
+		(priority 30030)
 		(attr
 			(teardrop
 				(type padvia)
@@ -8269,10 +8054,10 @@
 		(net 1)
 		(net_name "GND")
 		(layer "F.Cu")
-		(uuid "48035873-47df-412f-8144-3d747791efbf")
+		(uuid "0c58a527-18e0-49e5-aaf2-c2f3a3288eb2")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
-		(priority 30041)
+		(priority 30026)
 		(attr
 			(teardrop
 				(type padvia)
@@ -8291,55 +8076,14 @@
 		)
 		(polygon
 			(pts
-				(xy 123.747526 78.790653) (xy 123.888947 78.932074) (xy 124.357305 78.714264) (xy 124.243207 78.436393)
-				(xy 123.965336 78.322295)
+				(xy 104.7601 74.8148) (xy 104.5601 74.8148) (xy 104.382936 75.299995) (xy 104.6601 75.4158) (xy 104.937264 75.299995)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 124.243207 78.436393) (xy 124.357305 78.714264) (xy 123.888947 78.932074) (xy 123.747526 78.790653)
-				(xy 123.965336 78.322295)
-			)
-		)
-	)
-	(zone
-		(net 41)
-		(net_name "/swclk")
-		(layer "F.Cu")
-		(uuid "48d6be0e-69ce-40eb-905b-aa3c67ca3487")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30055)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 116.8 68.775) (xy 116.8 68.575) (xy 116.65 68.525) (xy 116.499 68.675) (xy 116.65 68.825)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 116.656834 68.527278) (xy 116.792 68.572333) (xy 116.798765 68.578201) (xy 116.8 68.583433)
-				(xy 116.8 68.766566) (xy 116.796573 68.774839) (xy 116.792 68.777666) (xy 116.656834 68.822721)
-				(xy 116.647902 68.822086) (xy 116.644888 68.819922) (xy 116.60235 68.777666) (xy 116.507355 68.6833)
-				(xy 116.503902 68.675039) (xy 116.507301 68.666754) (xy 116.507356 68.666699) (xy 116.591177 68.583433)
-				(xy 116.644889 68.530076) (xy 116.653173 68.526678)
+				(xy 104.937264 75.299995) (xy 104.6601 75.4158) (xy 104.382936 75.299995) (xy 104.5601 74.8148)
+				(xy 104.7601 74.8148)
 			)
 		)
 	)
@@ -8347,10 +8091,10 @@
 		(net 1)
 		(net_name "GND")
 		(layer "F.Cu")
-		(uuid "4b6c79f5-5173-4447-a6f0-3632ddd5e10c")
+		(uuid "0cfd4466-5dd6-406d-acec-1cd10cdd1036")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
-		(priority 30031)
+		(priority 30034)
 		(attr
 			(teardrop
 				(type padvia)
@@ -8369,14 +8113,13 @@
 		)
 		(polygon
 			(pts
-				(xy 124.1425 68.1375) (xy 124.3425 68.1375) (xy 124.519664 67.652305) (xy 124.2425 67.5365) (xy 123.965336 67.652305)
+				(xy 115.9 75.975) (xy 116.1 75.975) (xy 116.277164 75.489805) (xy 116 75.374) (xy 115.722836 75.489805)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 124.519664 67.652305) (xy 124.3425 68.1375) (xy 124.1425 68.1375) (xy 123.965336 67.652305)
-				(xy 124.2425 67.5365)
+				(xy 116.277164 75.489805) (xy 116.1 75.975) (xy 115.9 75.975) (xy 115.722836 75.489805) (xy 116 75.374)
 			)
 		)
 	)
@@ -8384,10 +8127,10 @@
 		(net 5)
 		(net_name "+3.3V")
 		(layer "F.Cu")
-		(uuid "4b7f4982-8468-4b23-9bb9-c33ee460e102")
+		(uuid "0dcdea8a-1ddb-4cc6-8838-e930265903d0")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
-		(priority 30000)
+		(priority 30053)
 		(attr
 			(teardrop
 				(type padvia)
@@ -8406,53 +8149,17 @@
 		)
 		(polygon
 			(pts
-				(xy 117.25 83.1) (xy 117.05 83.1) (xy 116.18806 84.408658) (xy 117.15 86.001) (xy 118.11194 84.408658)
+				(xy 110.673224 68.860355) (xy 110.814645 69.001776) (xy 110.850001 69.037132) (xy 111.000707 68.674293)
+				(xy 110.85 68.612868)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 117.251969 83.103427) (xy 117.253467 83.105264) (xy 118.107878 84.402492) (xy 118.109567 84.411286)
-				(xy 118.108121 84.414978) (xy 117.160014 85.984423) (xy 117.152803 85.989732) (xy 117.14395 85.988387)
-				(xy 117.139986 85.984423) (xy 116.191878 84.414978) (xy 116.190533 84.406125) (xy 116.192121 84.402492)
-				(xy 117.046533 83.105264) (xy 117.053946 83.10024) (xy 117.056304 83.1) (xy 117.243696 83.1)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "F.Cu")
-		(uuid "4d80f760-091e-4aed-b1a9-698982898d04")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30036)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 103.1875 84.2307) (xy 102.9875 84.2307) (xy 102.810336 84.715895) (xy 103.0875 84.8317) (xy 103.364664 84.715895)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 103.364664 84.715895) (xy 103.0875 84.8317) (xy 102.810336 84.715895) (xy 102.9875 84.2307)
-				(xy 103.1875 84.2307)
+				(xy 110.858559 68.616356) (xy 110.989799 68.669847) (xy 110.996167 68.676143) (xy 110.996218 68.685098)
+				(xy 110.996188 68.68517) (xy 110.85671 69.020978) (xy 110.850372 69.027304) (xy 110.841417 69.027295)
+				(xy 110.837632 69.024763) (xy 110.680232 68.867363) (xy 110.676805 68.85909) (xy 110.678983 68.852291)
+				(xy 110.844626 68.620391) (xy 110.852223 68.615651)
 			)
 		)
 	)
@@ -8460,7 +8167,7 @@
 		(net 45)
 		(net_name "+5V")
 		(layer "F.Cu")
-		(uuid "5320913b-6991-4676-8799-4c4e813e5664")
+		(uuid "0eaf84a9-9e5f-42f9-a842-abcf242080e8")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
 		(priority 30024)
@@ -8497,13 +8204,13 @@
 		)
 	)
 	(zone
-		(net 4)
-		(net_name "/swdio")
+		(net 2)
+		(net_name "/osc_in")
 		(layer "F.Cu")
-		(uuid "53755186-1171-4f1e-a434-83b652815b1f")
+		(uuid "12021792-a3e3-492d-a697-1a94f8003f2a")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
-		(priority 30009)
+		(priority 30016)
 		(attr
 			(teardrop
 				(type padvia)
@@ -8522,28 +8229,27 @@
 		)
 		(polygon
 			(pts
-				(xy 121.429736 72.102515) (xy 121.288315 72.243936) (xy 122.273959 73.218541) (xy 122.875707 72.618207)
-				(xy 122.549719 71.832202)
+				(xy 102.325 64.4) (xy 102.325 64.6) (xy 102.902113 64.95) (xy 103.226 64.5) (xy 102.902113 64.05)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 122.548844 71.835938) (xy 122.55355 71.841439) (xy 122.872706 72.610973) (xy 122.87271 72.619928)
-				(xy 122.870162 72.623738) (xy 122.282185 73.210333) (xy 122.273908 73.21375) (xy 122.265696 73.21037)
-				(xy 121.659509 72.610973) (xy 121.29668 72.252207) (xy 121.293207 72.243955) (xy 121.296586 72.235664)
-				(xy 121.42741 72.10484) (xy 121.432933 72.101743) (xy 122.539998 71.834548)
+				(xy 102.908429 64.058776) (xy 103.22108 64.493165) (xy 103.223132 64.501882) (xy 103.22108 64.506835)
+				(xy 102.908429 64.941223) (xy 102.900815 64.945936) (xy 102.892866 64.944392) (xy 102.330633 64.603416)
+				(xy 102.325336 64.596196) (xy 102.325 64.593412) (xy 102.325 64.406587) (xy 102.328427 64.398314)
+				(xy 102.330628 64.396586) (xy 102.892868 64.055606) (xy 102.901717 64.054247)
 			)
 		)
 	)
 	(zone
-		(net 45)
-		(net_name "+5V")
+		(net 41)
+		(net_name "/swclk")
 		(layer "F.Cu")
-		(uuid "55f6de55-2d1a-485d-9248-292fca10feb0")
+		(uuid "1311e61c-e4ff-4688-824b-8d2339992422")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
-		(priority 30007)
+		(priority 30055)
 		(attr
 			(teardrop
 				(type padvia)
@@ -8562,96 +8268,17 @@
 		)
 		(polygon
 			(pts
-				(xy 112.6 88.45) (xy 112.6 88.25) (xy 111.740165 87.659835) (xy 110.849 88.3) (xy 111.618506 89.021455)
+				(xy 116.8 68.775) (xy 116.8 68.575) (xy 116.65 68.525) (xy 116.499 68.675) (xy 116.65 68.825)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 111.746937 87.664483) (xy 112.594922 88.246514) (xy 112.599803 88.25402) (xy 112.6 88.256159)
-				(xy 112.6 88.443273) (xy 112.596573 88.451546) (xy 112.594187 88.453384) (xy 111.626037 89.01707)
-				(xy 111.617163 89.018271) (xy 111.612148 89.015494) (xy 110.859382 88.309734) (xy 110.85569 88.301576)
-				(xy 110.858849 88.293197) (xy 110.860558 88.291697) (xy 110.918604 88.25) (xy 111.733493 87.664627)
-				(xy 111.74221 87.662584)
-			)
-		)
-	)
-	(zone
-		(net 5)
-		(net_name "+3.3V")
-		(layer "F.Cu")
-		(uuid "5e776780-f4ff-4719-922e-3c4001915d80")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30017)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 106.675 83.1) (xy 106.675 82.9) (xy 106.097887 82.55) (xy 105.774 83) (xy 106.097887 83.45)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 106.107132 82.555606) (xy 106.669368 82.896584) (xy 106.674664 82.903803) (xy 106.675 82.906587)
-				(xy 106.675 83.093412) (xy 106.671573 83.101685) (xy 106.669367 83.103416) (xy 106.107133 83.444392)
-				(xy 106.098282 83.445752) (xy 106.09157 83.441223) (xy 105.989041 83.298773) (xy 105.778918 83.006834)
-				(xy 105.776867 82.998118) (xy 105.778919 82.993165) (xy 106.09157 82.558775) (xy 106.099184 82.554063)
-			)
-		)
-	)
-	(zone
-		(net 42)
-		(net_name "/NRST")
-		(layer "F.Cu")
-		(uuid "67034bcc-fd44-496d-ac21-6ef9261ee380")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30020)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 102.428553 79.076368) (xy 102.287132 78.934947) (xy 101.649194 79.025) (xy 101.674293 79.500707)
-				(xy 102.075 79.704386)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 102.290022 78.937999) (xy 102.291259 78.939074) (xy 102.422275 79.07009) (xy 102.425702 79.078363)
-				(xy 102.424197 79.084103) (xy 102.0805 79.694614) (xy 102.073456 79.700142) (xy 102.065003 79.699304)
-				(xy 101.680318 79.503769) (xy 101.674496 79.496965) (xy 101.673937 79.49396) (xy 101.649758 79.0357)
-				(xy 101.652744 79.02726) (xy 101.659804 79.023502) (xy 102.281353 78.935762)
+				(xy 116.656834 68.527278) (xy 116.792 68.572333) (xy 116.798765 68.578201) (xy 116.8 68.583433)
+				(xy 116.8 68.766566) (xy 116.796573 68.774839) (xy 116.792 68.777666) (xy 116.656834 68.822721)
+				(xy 116.647902 68.822086) (xy 116.644888 68.819922) (xy 116.60235 68.777666) (xy 116.507355 68.6833)
+				(xy 116.503902 68.675039) (xy 116.507301 68.666754) (xy 116.507356 68.666699) (xy 116.591177 68.583433)
+				(xy 116.644889 68.530076) (xy 116.653173 68.526678)
 			)
 		)
 	)
@@ -8659,10 +8286,10 @@
 		(net 5)
 		(net_name "+3.3V")
 		(layer "F.Cu")
-		(uuid "78920120-7358-4fc3-a53e-404b3d3ee584")
+		(uuid "1d65e419-41b6-411f-b2c9-1f5dc4d43a26")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
-		(priority 30006)
+		(priority 30021)
 		(attr
 			(teardrop
 				(type padvia)
@@ -8681,17 +8308,16 @@
 		)
 		(polygon
 			(pts
-				(xy 112.158051 84.9574) (xy 112.158051 84.7574) (xy 110.567721 85.25) (xy 110.849 86) (xy 111.85 86.121794)
+				(xy 103.225 80.375) (xy 103.425 80.375) (xy 103.709776 79.851537) (xy 103.325 79.499) (xy 102.940224 79.851537)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 112.151806 84.762921) (xy 112.157527 84.76981) (xy 112.158051 84.773272) (xy 112.158051 84.955878)
-				(xy 112.157662 84.95887) (xy 111.852606 86.111941) (xy 111.847177 86.119063) (xy 111.839882 86.120562)
-				(xy 111.713429 86.105177) (xy 110.856048 86.000857) (xy 110.848249 85.996456) (xy 110.846508 85.993355)
-				(xy 110.572077 85.261614) (xy 110.572381 85.252664) (xy 110.578923 85.24655) (xy 110.579544 85.246337)
-				(xy 112.142889 84.762096)
+				(xy 103.332902 79.50624) (xy 103.703029 79.845355) (xy 103.706814 79.853471) (xy 103.705403 79.859573)
+				(xy 103.428323 80.368891) (xy 103.421359 80.374521) (xy 103.418045 80.375) (xy 103.231955 80.375)
+				(xy 103.223682 80.371573) (xy 103.221677 80.368891) (xy 102.944596 79.859573) (xy 102.943653 79.850668)
+				(xy 102.946968 79.845357) (xy 103.317097 79.50624) (xy 103.325511 79.503179)
 			)
 		)
 	)
@@ -8699,10 +8325,10 @@
 		(net 1)
 		(net_name "GND")
 		(layer "F.Cu")
-		(uuid "79499afb-7cc5-4d28-b096-aabfeb1dd16f")
+		(uuid "20ff4414-35c8-4b4a-a0ac-f320e9d8b1c6")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
-		(priority 30033)
+		(priority 30040)
 		(attr
 			(teardrop
 				(type padvia)
@@ -8721,13 +8347,171 @@
 		)
 		(polygon
 			(pts
-				(xy 113.85 74.775) (xy 113.65 74.775) (xy 113.472836 75.260195) (xy 113.75 75.376) (xy 114.027164 75.260195)
+				(xy 103.1875 84.2307) (xy 102.9875 84.2307) (xy 102.810336 84.715895) (xy 103.0875 84.8317) (xy 103.364664 84.715895)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 114.027164 75.260195) (xy 113.75 75.376) (xy 113.472836 75.260195) (xy 113.65 74.775) (xy 113.85 74.775)
+				(xy 103.364664 84.715895) (xy 103.0875 84.8317) (xy 102.810336 84.715895) (xy 102.9875 84.2307)
+				(xy 103.1875 84.2307)
+			)
+		)
+	)
+	(zone
+		(net 42)
+		(net_name "/NRST")
+		(layer "F.Cu")
+		(uuid "2a0bd687-9844-4593-a7df-3cbed521bc3a")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30003)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 101.734924 86.406497) (xy 101.593503 86.265076) (xy 99.867317 86.82612) (xy 100.249293 87.750707)
+				(xy 101.17388 88.132683)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 101.595611 86.267994) (xy 101.598573 86.270146) (xy 101.729853 86.401426) (xy 101.73328 86.409699)
+				(xy 101.732707 86.413316) (xy 101.177788 88.120658) (xy 101.171972 88.127466) (xy 101.163044 88.128168)
+				(xy 101.162194 88.127855) (xy 100.253784 87.752562) (xy 100.247446 87.746235) (xy 100.247437 87.746215)
+				(xy 99.872144 86.837805) (xy 99.872153 86.828851) (xy 99.878491 86.822524) (xy 99.879318 86.822219)
+				(xy 101.586684 86.267292)
+			)
+		)
+	)
+	(zone
+		(net 3)
+		(net_name "/osc_out")
+		(layer "F.Cu")
+		(uuid "2dfcd9ce-4bbd-4f2b-9172-c4df7772a680")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30051)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 108.7 72.4875) (xy 108.7 72.6875) (xy 108.896299 72.731791) (xy 109.5885 72.5875) (xy 108.896299 72.443209)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 109.533552 72.576046) (xy 109.540951 72.581089) (xy 109.542618 72.589888) (xy 109.537575 72.597287)
+				(xy 109.533552 72.598954) (xy 108.898784 72.731272) (xy 108.893821 72.731231) (xy 108.709125 72.689558)
+				(xy 108.701809 72.684394) (xy 108.7 72.678145) (xy 108.7 72.496854) (xy 108.703427 72.488581) (xy 108.709124 72.485441)
+				(xy 108.893821 72.443767) (xy 108.898784 72.443727)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "F.Cu")
+		(uuid "39537cd3-a2e3-4f14-a84a-c6b3f7ec54f3")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30043)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 123.747526 78.790653) (xy 123.888947 78.932074) (xy 124.357305 78.714264) (xy 124.243207 78.436393)
+				(xy 123.965336 78.322295)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 124.243207 78.436393) (xy 124.357305 78.714264) (xy 123.888947 78.932074) (xy 123.747526 78.790653)
+				(xy 123.965336 78.322295)
+			)
+		)
+	)
+	(zone
+		(net 5)
+		(net_name "+3.3V")
+		(layer "F.Cu")
+		(uuid "395ac116-5406-4806-9ee9-0375e4ff659f")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30052)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 116.6217 76.1125) (xy 116.4217 76.1125) (xy 116.367284 76.291475) (xy 116.5 77.001) (xy 116.65 76.3375)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 116.619652 76.115927) (xy 116.622988 76.12274) (xy 116.649743 76.335464) (xy 116.649546 76.339504)
+				(xy 116.512494 76.945731) (xy 116.507327 76.953045) (xy 116.498502 76.954563) (xy 116.491188 76.949396)
+				(xy 116.489582 76.945305) (xy 116.36781 76.294287) (xy 116.368117 76.288734) (xy 116.418587 76.12274)
+				(xy 116.419177 76.120796) (xy 116.424862 76.113878) (xy 116.430371 76.1125) (xy 116.611379 76.1125)
 			)
 		)
 	)
@@ -8735,7 +8519,7 @@
 		(net 2)
 		(net_name "/osc_in")
 		(layer "F.Cu")
-		(uuid "7ac4dab2-3982-47df-802d-94499bc2ffa6")
+		(uuid "3df853ce-029b-497d-849a-7ea6784a4f90")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
 		(priority 30046)
@@ -8772,10 +8556,204 @@
 		)
 	)
 	(zone
+		(net 5)
+		(net_name "+3.3V")
+		(layer "F.Cu")
+		(uuid "41054a15-207b-4e1a-a102-e3ebe3748c97")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30012)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 105.1334 82.216979) (xy 104.991979 82.3584) (xy 105.325 83.186396) (xy 105.775707 83.000707)
+				(xy 105.936396 82.525)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 105.14049 82.219698) (xy 105.925906 82.520976) (xy 105.932402 82.527138) (xy 105.9328 82.535643)
+				(xy 105.777411 82.995661) (xy 105.771516 83.002403) (xy 105.770783 83.002735) (xy 105.335909 83.181901)
+				(xy 105.326954 83.181884) (xy 105.320634 83.17554) (xy 105.320597 83.175449) (xy 105.250998 83.002403)
+				(xy 104.994863 82.36557) (xy 104.994955 82.356618) (xy 104.997442 82.352936) (xy 105.128029 82.222349)
+				(xy 105.136301 82.218923)
+			)
+		)
+	)
+	(zone
 		(net 1)
 		(net_name "GND")
 		(layer "F.Cu")
-		(uuid "881a59fb-c744-4645-bfa4-8893fccd9ee9")
+		(uuid "45f55266-cf5a-48d6-9478-5d621dbf2ecb")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30033)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 109.25 85.8) (xy 109.45 85.8) (xy 109.627164 85.314805) (xy 109.35 85.199) (xy 109.072836 85.314805)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 109.627164 85.314805) (xy 109.45 85.8) (xy 109.25 85.8) (xy 109.072836 85.314805) (xy 109.35 85.199)
+			)
+		)
+	)
+	(zone
+		(net 45)
+		(net_name "+5V")
+		(layer "F.Cu")
+		(uuid "4a4f7ebc-185b-4c2b-903e-05088886a20e")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30007)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 112.6 88.45) (xy 112.6 88.25) (xy 111.740165 87.659835) (xy 110.849 88.3) (xy 111.618506 89.021455)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 111.746937 87.664483) (xy 112.594922 88.246514) (xy 112.599803 88.25402) (xy 112.6 88.256159)
+				(xy 112.6 88.443273) (xy 112.596573 88.451546) (xy 112.594187 88.453384) (xy 111.626037 89.01707)
+				(xy 111.617163 89.018271) (xy 111.612148 89.015494) (xy 110.859382 88.309734) (xy 110.85569 88.301576)
+				(xy 110.858849 88.293197) (xy 110.860558 88.291697) (xy 110.918604 88.25) (xy 111.733493 87.664627)
+				(xy 111.74221 87.662584)
+			)
+		)
+	)
+	(zone
+		(net 42)
+		(net_name "/NRST")
+		(layer "F.Cu")
+		(uuid "4b484d64-0616-472f-ab95-6ea9b8325aa9")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30022)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 101.575 80.375) (xy 101.775 80.375) (xy 102.059776 79.851537) (xy 101.675 79.499) (xy 101.290224 79.851537)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 101.682902 79.50624) (xy 102.053029 79.845355) (xy 102.056814 79.853471) (xy 102.055403 79.859573)
+				(xy 101.778323 80.368891) (xy 101.771359 80.374521) (xy 101.768045 80.375) (xy 101.581955 80.375)
+				(xy 101.573682 80.371573) (xy 101.571677 80.368891) (xy 101.294596 79.859573) (xy 101.293653 79.850668)
+				(xy 101.296968 79.845357) (xy 101.667097 79.50624) (xy 101.675511 79.503179)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "F.Cu")
+		(uuid "4ba14104-d7d9-49ca-acb8-1f48cb8f4df2")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30041)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 109.844974 84.846447) (xy 109.703553 84.705026) (xy 109.235195 84.922836) (xy 109.349293 85.200707)
+				(xy 109.627164 85.314805)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 109.844974 84.846447) (xy 109.627164 85.314805) (xy 109.349293 85.200707) (xy 109.235195 84.922836)
+				(xy 109.703553 84.705026)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "F.Cu")
+		(uuid "4cba0c45-d812-4a1b-b8f7-a9db337d5255")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
 		(priority 30027)
@@ -8797,13 +8775,13 @@
 		)
 		(polygon
 			(pts
-				(xy 115.9 75.975) (xy 116.1 75.975) (xy 116.277164 75.489805) (xy 116 75.374) (xy 115.722836 75.489805)
+				(xy 97.3 83.85) (xy 97.5 83.85) (xy 97.677164 83.364805) (xy 97.4 83.249) (xy 97.122836 83.364805)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 116.277164 75.489805) (xy 116.1 75.975) (xy 115.9 75.975) (xy 115.722836 75.489805) (xy 116 75.374)
+				(xy 97.677164 83.364805) (xy 97.5 83.85) (xy 97.3 83.85) (xy 97.122836 83.364805) (xy 97.4 83.249)
 			)
 		)
 	)
@@ -8811,351 +8789,7 @@
 		(net 1)
 		(net_name "GND")
 		(layer "F.Cu")
-		(uuid "8c5a3b29-b588-4c01-a37c-a238b31009ea")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30039)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 121.1875 89.2575) (xy 121.3875 89.2575) (xy 121.564664 88.772305) (xy 121.2875 88.6565) (xy 121.010336 88.772305)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 121.564664 88.772305) (xy 121.3875 89.2575) (xy 121.1875 89.2575) (xy 121.010336 88.772305)
-				(xy 121.2875 88.6565)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "F.Cu")
-		(uuid "8fc1a041-e06f-4acd-a8d6-7296eb902d16")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30044)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 121.804504 88.336917) (xy 121.663083 88.195496) (xy 121.172695 88.380336) (xy 121.286793 88.658207)
-				(xy 121.564664 88.772305)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 121.804504 88.336917) (xy 121.564664 88.772305) (xy 121.286793 88.658207) (xy 121.172695 88.380336)
-				(xy 121.663083 88.195496)
-			)
-		)
-	)
-	(zone
-		(net 42)
-		(net_name "/NRST")
-		(layer "F.Cu")
-		(uuid "aa6d5a84-dbeb-4b66-9abe-976b108294ae")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30050)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 108.7 72.9875) (xy 108.7 73.1875) (xy 108.896299 73.231791) (xy 109.5885 73.0875) (xy 108.896299 72.943209)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 109.533552 73.076046) (xy 109.540951 73.081089) (xy 109.542618 73.089888) (xy 109.537575 73.097287)
-				(xy 109.533552 73.098954) (xy 108.898784 73.231272) (xy 108.893821 73.231231) (xy 108.709125 73.189558)
-				(xy 108.701809 73.184394) (xy 108.7 73.178145) (xy 108.7 72.996854) (xy 108.703427 72.988581) (xy 108.709124 72.985441)
-				(xy 108.893821 72.943767) (xy 108.898784 72.943727)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "F.Cu")
-		(uuid "aea97284-09c9-4937-85d0-06a9c74d6e69")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30029)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 104.7601 74.8148) (xy 104.5601 74.8148) (xy 104.382936 75.299995) (xy 104.6601 75.4158) (xy 104.937264 75.299995)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 104.937264 75.299995) (xy 104.6601 75.4158) (xy 104.382936 75.299995) (xy 104.5601 74.8148)
-				(xy 104.7601 74.8148)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "F.Cu")
-		(uuid "aecae90a-ec83-4a7f-8280-ef220ef4dde7")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30026)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 111.8334 74.775) (xy 111.6334 74.775) (xy 111.456236 75.260195) (xy 111.7334 75.376) (xy 112.010564 75.260195)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 112.010564 75.260195) (xy 111.7334 75.376) (xy 111.456236 75.260195) (xy 111.6334 74.775) (xy 111.8334 74.775)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "F.Cu")
-		(uuid "b07c8387-075a-4947-9045-2cbcc8b9ae5c")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30030)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 124.3425 77.8371) (xy 124.1425 77.8371) (xy 123.965336 78.322295) (xy 124.2425 78.4381) (xy 124.519664 78.322295)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 124.519664 78.322295) (xy 124.2425 78.4381) (xy 123.965336 78.322295) (xy 124.1425 77.8371)
-				(xy 124.3425 77.8371)
-			)
-		)
-	)
-	(zone
-		(net 2)
-		(net_name "/osc_in")
-		(layer "F.Cu")
-		(uuid "b9c78f8f-5608-46a2-8f54-df79db615217")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30004)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 99.842751 65.27037) (xy 99.70133 65.128949) (xy 99 64.392446) (xy 97.999293 65.750707) (xy 99 66.486841)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 99.008086 64.401195) (xy 99.009619 64.402547) (xy 99.701329 65.128948) (xy 99.835843 65.263462)
-				(xy 99.83927 65.271735) (xy 99.837188 65.278398) (xy 99.006854 66.476946) (xy 98.999325 66.481795)
-				(xy 98.990573 66.479901) (xy 98.990303 66.479708) (xy 98.986548 66.476946) (xy 98.008725 65.757645)
-				(xy 98.004091 65.749982) (xy 98.006233 65.741287) (xy 98.006238 65.74128) (xy 98.991727 64.403673)
-				(xy 98.999393 64.399047)
-			)
-		)
-	)
-	(zone
-		(net 5)
-		(net_name "+3.3V")
-		(layer "F.Cu")
-		(uuid "bf4542f6-c621-404b-b73f-df785e6e7089")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30054)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 116.685355 77.326776) (xy 116.826776 77.185355) (xy 116.65 76.937868) (xy 116.499293 76.999293)
-				(xy 116.65 77.362132)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 116.650392 76.941408) (xy 116.655374 76.945392) (xy 116.821015 77.17729) (xy 116.823035 77.186013)
-				(xy 116.819767 77.192363) (xy 116.685355 77.326776) (xy 116.662368 77.349763) (xy 116.654095 77.35319)
-				(xy 116.645822 77.349763) (xy 116.64329 77.345978) (xy 116.635314 77.326776) (xy 116.503811 77.01017)
-				(xy 116.503802 77.001215) (xy 116.510128 76.994877) (xy 116.51014 76.994871) (xy 116.641439 76.941357)
-			)
-		)
-	)
-	(zone
-		(net 45)
-		(net_name "+5V")
-		(layer "F.Cu")
-		(uuid "c2ad89df-7d6a-44fa-bb5f-c61370f5a3ef")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30025)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 124.251379 83.3662) (xy 124.3928 83.224779) (xy 124.361779 82.961123) (xy 123.761793 82.816793)
-				(xy 123.659297 83.0975)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 124.353848 82.959215) (xy 124.361091 82.964481) (xy 124.362732 82.969223) (xy 124.392137 83.219148)
-				(xy 124.3897 83.227765) (xy 124.38879 83.228788) (xy 124.257108 83.36047) (xy 124.248835 83.363897)
-				(xy 124.244 83.362851) (xy 123.669171 83.101981) (xy 123.663053 83.095442) (xy 123.663016 83.087314)
-				(xy 123.706135 82.969223) (xy 123.758214 82.826593) (xy 123.764269 82.819999) (xy 123.771937 82.819233)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "F.Cu")
-		(uuid "c306cfbd-4602-4b60-b06c-8ec81368f81c")
+		(uuid "4d2bf569-a03c-487a-b2bd-2f7bcfedcf56")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
 		(priority 30045)
@@ -9190,13 +8824,50 @@
 		)
 	)
 	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "F.Cu")
+		(uuid "54033fd5-5c03-4a63-8873-f2164728f12c")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30037)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 124.3425 77.8371) (xy 124.1425 77.8371) (xy 123.965336 78.322295) (xy 124.2425 78.4381) (xy 124.519664 78.322295)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 124.519664 78.322295) (xy 124.2425 78.4381) (xy 123.965336 78.322295) (xy 124.1425 77.8371)
+				(xy 124.3425 77.8371)
+			)
+		)
+	)
+	(zone
 		(net 5)
 		(net_name "+3.3V")
 		(layer "F.Cu")
-		(uuid "c4cc15b3-64f6-40dc-9441-aa52aa47e763")
+		(uuid "592bcf72-d4ee-4250-b1c3-1cde237ef754")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
-		(priority 30001)
+		(priority 30006)
 		(attr
 			(teardrop
 				(type padvia)
@@ -9215,16 +8886,17 @@
 		)
 		(polygon
 			(pts
-				(xy 105.875 92.75) (xy 105.675 92.75) (xy 104.487448 93.75) (xy 105.2 95.001) (xy 106.551668 93.75)
+				(xy 112.158051 84.9574) (xy 112.158051 84.7574) (xy 110.567721 85.25) (xy 110.849 86) (xy 111.85 86.121794)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 105.877063 92.753427) (xy 105.87848 92.755143) (xy 106.546038 93.74168) (xy 106.547836 93.750451)
-				(xy 106.544295 93.756823) (xy 105.210818 94.990987) (xy 105.202419 94.994091) (xy 105.194284 94.990347)
-				(xy 105.192704 94.988191) (xy 104.492268 93.758463) (xy 104.491153 93.74958) (xy 104.494898 93.743725)
-				(xy 105.671734 92.752749) (xy 105.67927 92.75) (xy 105.86879 92.75)
+				(xy 112.151806 84.762921) (xy 112.157527 84.76981) (xy 112.158051 84.773272) (xy 112.158051 84.955878)
+				(xy 112.157662 84.95887) (xy 111.852606 86.111941) (xy 111.847177 86.119063) (xy 111.839882 86.120562)
+				(xy 111.713429 86.105177) (xy 110.856048 86.000857) (xy 110.848249 85.996456) (xy 110.846508 85.993355)
+				(xy 110.572077 85.261614) (xy 110.572381 85.252664) (xy 110.578923 85.24655) (xy 110.579544 85.246337)
+				(xy 112.142889 84.762096)
 			)
 		)
 	)
@@ -9232,46 +8904,7 @@
 		(net 3)
 		(net_name "/osc_out")
 		(layer "F.Cu")
-		(uuid "d2f13086-9660-4065-8707-34effe7966d2")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30048)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 108.7 72.4875) (xy 108.7 72.6875) (xy 108.896299 72.731791) (xy 109.5885 72.5875) (xy 108.896299 72.443209)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 109.533552 72.576046) (xy 109.540951 72.581089) (xy 109.542618 72.589888) (xy 109.537575 72.597287)
-				(xy 109.533552 72.598954) (xy 108.898784 72.731272) (xy 108.893821 72.731231) (xy 108.709125 72.689558)
-				(xy 108.701809 72.684394) (xy 108.7 72.678145) (xy 108.7 72.496854) (xy 108.703427 72.488581) (xy 108.709124 72.485441)
-				(xy 108.893821 72.443767) (xy 108.898784 72.443727)
-			)
-		)
-	)
-	(zone
-		(net 3)
-		(net_name "/osc_out")
-		(layer "F.Cu")
-		(uuid "d715524c-5337-4f4c-bcab-230d26d71241")
+		(uuid "608faabc-0505-47b6-b5db-ce7c7dbf447f")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
 		(priority 30005)
@@ -9308,13 +8941,13 @@
 		)
 	)
 	(zone
-		(net 1)
-		(net_name "GND")
+		(net 5)
+		(net_name "+3.3V")
 		(layer "F.Cu")
-		(uuid "e0bbb06a-d02e-4dc8-8027-016ed3165ff0")
+		(uuid "63997686-9cbe-40dd-a78a-f2da041d08f4")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
-		(priority 30034)
+		(priority 30047)
 		(attr
 			(teardrop
 				(type padvia)
@@ -9333,24 +8966,28 @@
 		)
 		(polygon
 			(pts
-				(xy 109.25 85.8) (xy 109.45 85.8) (xy 109.627164 85.314805) (xy 109.35 85.199) (xy 109.072836 85.314805)
+				(xy 116.998224 70.135155) (xy 117.139645 70.276576) (xy 117.918719 70.2375) (xy 117.913207 70.086793)
+				(xy 117.175 70.039422)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 109.627164 85.314805) (xy 109.45 85.8) (xy 109.25 85.8) (xy 109.072836 85.314805) (xy 109.35 85.199)
+				(xy 117.902651 70.086115) (xy 117.910687 70.090065) (xy 117.913593 70.097363) (xy 117.918297 70.225965)
+				(xy 117.915175 70.234358) (xy 117.907191 70.238078) (xy 117.144831 70.276315) (xy 117.136397 70.273307)
+				(xy 117.135972 70.272903) (xy 117.009315 70.146246) (xy 117.005888 70.137973) (xy 117.009315 70.1297)
+				(xy 117.012011 70.127688) (xy 117.172041 70.041024) (xy 117.178357 70.039637)
 			)
 		)
 	)
 	(zone
-		(net 4)
-		(net_name "/swdio")
+		(net 5)
+		(net_name "+3.3V")
 		(layer "F.Cu")
-		(uuid "e1c8bae9-cdf3-4230-9847-3283128f2fd5")
+		(uuid "6bbcaf70-5c74-4164-a986-fe454815dffd")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
-		(priority 30049)
+		(priority 30018)
 		(attr
 			(teardrop
 				(type padvia)
@@ -9369,27 +9006,27 @@
 		)
 		(polygon
 			(pts
-				(xy 118.8 71.1875) (xy 118.8 70.9875) (xy 118.603701 70.943209) (xy 117.9115 71.0875) (xy 118.603701 71.231791)
+				(xy 105.675 83.925) (xy 105.875 83.925) (xy 106.207873 83.336104) (xy 105.775 82.999) (xy 105.342127 83.336104)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 118.606178 70.943768) (xy 118.694697 70.96374) (xy 118.790875 70.985441) (xy 118.798191 70.990605)
-				(xy 118.8 70.996854) (xy 118.8 71.178145) (xy 118.796573 71.186418) (xy 118.790875 71.189558) (xy 118.606178 71.231231)
-				(xy 118.601215 71.231272) (xy 118.075216 71.121627) (xy 117.966446 71.098953) (xy 117.959048 71.093911)
-				(xy 117.957381 71.085112) (xy 117.962424 71.077713) (xy 117.966446 71.076046) (xy 118.601215 70.943727)
+				(xy 105.782187 83.004597) (xy 106.19991 83.329903) (xy 106.204332 83.337689) (xy 106.202906 83.34489)
+				(xy 105.878359 83.919057) (xy 105.871305 83.924573) (xy 105.868174 83.925) (xy 105.681826 83.925)
+				(xy 105.673553 83.921573) (xy 105.671641 83.919057) (xy 105.347093 83.34489) (xy 105.346005 83.336002)
+				(xy 105.350086 83.329905) (xy 105.767811 83.004597) (xy 105.776444 83.002218)
 			)
 		)
 	)
 	(zone
-		(net 42)
-		(net_name "/NRST")
+		(net 41)
+		(net_name "/swclk")
 		(layer "F.Cu")
-		(uuid "e711e0ad-eeac-4da3-8728-bbd683620b7b")
+		(uuid "6d4ac3cf-cfc1-4fcd-b4ad-3e1362f5a400")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
-		(priority 30021)
+		(priority 30009)
 		(attr
 			(teardrop
 				(type padvia)
@@ -9408,16 +9045,17 @@
 		)
 		(polygon
 			(pts
-				(xy 101.575 80.375) (xy 101.775 80.375) (xy 102.059776 79.851537) (xy 101.675 79.499) (xy 101.290224 79.851537)
+				(xy 121.429736 69.562515) (xy 121.288315 69.703936) (xy 122.273959 70.678541) (xy 122.875707 70.078207)
+				(xy 122.549719 69.292202)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 101.682902 79.50624) (xy 102.053029 79.845355) (xy 102.056814 79.853471) (xy 102.055403 79.859573)
-				(xy 101.778323 80.368891) (xy 101.771359 80.374521) (xy 101.768045 80.375) (xy 101.581955 80.375)
-				(xy 101.573682 80.371573) (xy 101.571677 80.368891) (xy 101.294596 79.859573) (xy 101.293653 79.850668)
-				(xy 101.296968 79.845357) (xy 101.667097 79.50624) (xy 101.675511 79.503179)
+				(xy 122.548844 69.295938) (xy 122.55355 69.301439) (xy 122.872706 70.070973) (xy 122.87271 70.079928)
+				(xy 122.870162 70.083738) (xy 122.282185 70.670333) (xy 122.273908 70.67375) (xy 122.265696 70.67037)
+				(xy 121.659509 70.070973) (xy 121.29668 69.712207) (xy 121.293207 69.703955) (xy 121.296586 69.695664)
+				(xy 121.42741 69.56484) (xy 121.432933 69.561743) (xy 122.539998 69.294548)
 			)
 		)
 	)
@@ -9425,7 +9063,734 @@
 		(net 45)
 		(net_name "+5V")
 		(layer "F.Cu")
-		(uuid "e810822e-bbd5-4d7f-a5bf-7f3d43a24ac5")
+		(uuid "6e2702b5-4db8-4e23-afb0-4f0d198d569d")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30011)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 110.8 89.8) (xy 111 89.8) (xy 111.624351 89.017549) (xy 110.85 88.299) (xy 110.123931 89.029896)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 110.858289 88.306692) (xy 111.616391 89.010163) (xy 111.620125 89.018302) (xy 111.617578 89.026036)
+				(xy 111.003513 89.795597) (xy 110.995675 89.799927) (xy 110.994368 89.8) (xy 110.805298 89.8) (xy 110.797025 89.796573)
+				(xy 110.796505 89.796019) (xy 110.13114 89.038108) (xy 110.128258 89.02963) (xy 110.131631 89.022144)
+				(xy 110.842031 88.307021) (xy 110.850292 88.303568)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "F.Cu")
+		(uuid "77506b3b-ed96-4548-a75e-d439a71a0736")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30032)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 114.8625 94.1427) (xy 115.0625 94.1427) (xy 115.239664 93.657505) (xy 114.9625 93.5417) (xy 114.685336 93.657505)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 115.239664 93.657505) (xy 115.0625 94.1427) (xy 114.8625 94.1427) (xy 114.685336 93.657505)
+				(xy 114.9625 93.5417)
+			)
+		)
+	)
+	(zone
+		(net 2)
+		(net_name "/osc_in")
+		(layer "F.Cu")
+		(uuid "88bd14de-122a-41ff-9e05-28d75ce53095")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30004)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 99.842751 65.27037) (xy 99.70133 65.128949) (xy 99 64.392446) (xy 97.999293 65.750707) (xy 99 66.486841)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 99.008086 64.401195) (xy 99.009619 64.402547) (xy 99.701329 65.128948) (xy 99.835843 65.263462)
+				(xy 99.83927 65.271735) (xy 99.837188 65.278398) (xy 99.006854 66.476946) (xy 98.999325 66.481795)
+				(xy 98.990573 66.479901) (xy 98.990303 66.479708) (xy 98.986548 66.476946) (xy 98.008725 65.757645)
+				(xy 98.004091 65.749982) (xy 98.006233 65.741287) (xy 98.006238 65.74128) (xy 98.991727 64.403673)
+				(xy 98.999393 64.399047)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "F.Cu")
+		(uuid "9ffa7157-3bc1-48d0-9337-edeb962fa5c5")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30031)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 121.1875 89.2575) (xy 121.3875 89.2575) (xy 121.564664 88.772305) (xy 121.2875 88.6565) (xy 121.010336 88.772305)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 121.564664 88.772305) (xy 121.3875 89.2575) (xy 121.1875 89.2575) (xy 121.010336 88.772305)
+				(xy 121.2875 88.6565)
+			)
+		)
+	)
+	(zone
+		(net 42)
+		(net_name "/NRST")
+		(layer "F.Cu")
+		(uuid "a96531fd-0417-442f-acf8-9596f1fccc79")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30020)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 102.428553 79.076368) (xy 102.287132 78.934947) (xy 101.649194 79.025) (xy 101.674293 79.500707)
+				(xy 102.075 79.704386)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 102.290022 78.937999) (xy 102.291259 78.939074) (xy 102.422275 79.07009) (xy 102.425702 79.078363)
+				(xy 102.424197 79.084103) (xy 102.0805 79.694614) (xy 102.073456 79.700142) (xy 102.065003 79.699304)
+				(xy 101.680318 79.503769) (xy 101.674496 79.496965) (xy 101.673937 79.49396) (xy 101.649758 79.0357)
+				(xy 101.652744 79.02726) (xy 101.659804 79.023502) (xy 102.281353 78.935762)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "F.Cu")
+		(uuid "af22a7a8-e37a-47c6-a02b-46f021e9ee65")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30042)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 123.747526 78.790653) (xy 123.888947 78.932074) (xy 124.357305 78.714264) (xy 124.243207 78.436393)
+				(xy 123.965336 78.322295)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 124.243207 78.436393) (xy 124.357305 78.714264) (xy 123.888947 78.932074) (xy 123.747526 78.790653)
+				(xy 123.965336 78.322295)
+			)
+		)
+	)
+	(zone
+		(net 42)
+		(net_name "/NRST")
+		(layer "F.Cu")
+		(uuid "b05e64de-37d4-4152-a2f0-105c85d47f8c")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30048)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 108.7 72.9875) (xy 108.7 73.1875) (xy 108.896299 73.231791) (xy 109.5885 73.0875) (xy 108.896299 72.943209)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 109.533552 73.076046) (xy 109.540951 73.081089) (xy 109.542618 73.089888) (xy 109.537575 73.097287)
+				(xy 109.533552 73.098954) (xy 108.898784 73.231272) (xy 108.893821 73.231231) (xy 108.709125 73.189558)
+				(xy 108.701809 73.184394) (xy 108.7 73.178145) (xy 108.7 72.996854) (xy 108.703427 72.988581) (xy 108.709124 72.985441)
+				(xy 108.893821 72.943767) (xy 108.898784 72.943727)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "F.Cu")
+		(uuid "b49b06aa-76ee-4234-a3d7-182143436adc")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30028)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 111.8334 74.775) (xy 111.6334 74.775) (xy 111.456236 75.260195) (xy 111.7334 75.376) (xy 112.010564 75.260195)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 112.010564 75.260195) (xy 111.7334 75.376) (xy 111.456236 75.260195) (xy 111.6334 74.775) (xy 111.8334 74.775)
+			)
+		)
+	)
+	(zone
+		(net 3)
+		(net_name "/osc_out")
+		(layer "F.Cu")
+		(uuid "bedcbfbe-0dc2-4ccc-825d-4cac50fb3d15")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30014)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 103.674787 75.363908) (xy 103.816208 75.222487) (xy 103.675 74.365854) (xy 103.224293 74.499293)
+				(xy 102.998031 74.974608)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 103.671195 74.370554) (xy 103.67683 74.377514) (xy 103.677155 74.378932) (xy 103.81523 75.216559)
+				(xy 103.813195 75.225279) (xy 103.811959 75.226735) (xy 103.681125 75.357569) (xy 103.672852 75.360996)
+				(xy 103.667018 75.359438) (xy 103.007413 74.980005) (xy 103.00195 74.972909) (xy 103.002682 74.964835)
+				(xy 103.222051 74.504001) (xy 103.228701 74.498005) (xy 103.229281 74.497816) (xy 103.662292 74.369616)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "F.Cu")
+		(uuid "c118c2d1-da75-4759-a259-542d4806c972")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30044)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 121.804504 88.336917) (xy 121.663083 88.195496) (xy 121.172695 88.380336) (xy 121.286793 88.658207)
+				(xy 121.564664 88.772305)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 121.804504 88.336917) (xy 121.564664 88.772305) (xy 121.286793 88.658207) (xy 121.172695 88.380336)
+				(xy 121.663083 88.195496)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "F.Cu")
+		(uuid "c5e13750-361c-49d1-9935-fd2192cc73dd")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30036)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 124.1425 68.1375) (xy 124.3425 68.1375) (xy 124.519664 67.652305) (xy 124.2425 67.5365) (xy 123.965336 67.652305)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 124.519664 67.652305) (xy 124.3425 68.1375) (xy 124.1425 68.1375) (xy 123.965336 67.652305)
+				(xy 124.2425 67.5365)
+			)
+		)
+	)
+	(zone
+		(net 5)
+		(net_name "+3.3V")
+		(layer "F.Cu")
+		(uuid "ca2373fc-fce7-4e0d-bd1a-9108ceb598c8")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30010)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 121.288315 75.531064) (xy 121.429736 75.672485) (xy 122.549719 75.942798) (xy 122.875707 75.156793)
+				(xy 122.273959 74.556459)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 122.282185 74.564666) (xy 122.870162 75.151261) (xy 122.873599 75.15953) (xy 122.872706 75.164026)
+				(xy 122.55355 75.93356) (xy 122.547216 75.939889) (xy 122.539998 75.940451) (xy 121.432936 75.673257)
+				(xy 121.427408 75.670157) (xy 121.296634 75.539383) (xy 121.293207 75.53111) (xy 121.296633 75.522838)
+				(xy 122.265696 74.564628) (xy 122.273988 74.561249)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "F.Cu")
+		(uuid "cdcc5d41-ab04-4434-8a63-472ef6b112db")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30038)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 121.1875 93.0358) (xy 121.3875 93.0358) (xy 121.564664 92.550605) (xy 121.2875 92.4348) (xy 121.010336 92.550605)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 121.564664 92.550605) (xy 121.3875 93.0358) (xy 121.1875 93.0358) (xy 121.010336 92.550605)
+				(xy 121.2875 92.4348)
+			)
+		)
+	)
+	(zone
+		(net 2)
+		(net_name "/osc_in")
+		(layer "F.Cu")
+		(uuid "d0b97346-836f-4fe7-847e-ebc7187c9766")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30013)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 104.008021 63.8584) (xy 103.8666 63.716979) (xy 103.063604 64.025) (xy 103.224293 64.500707)
+				(xy 103.675 64.686396)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 103.868459 63.719936) (xy 103.871971 63.72235) (xy 104.002554 63.852933) (xy 104.005981 63.861206)
+				(xy 104.005136 63.865572) (xy 103.679402 64.675449) (xy 103.673135 64.681846) (xy 103.664181 64.681938)
+				(xy 103.66409 64.681901) (xy 103.229216 64.502735) (xy 103.222872 64.496415) (xy 103.222592 64.495674)
+				(xy 103.067199 64.035642) (xy 103.067798 64.026709) (xy 103.074091 64.020976) (xy 103.859509 63.719699)
+			)
+		)
+	)
+	(zone
+		(net 3)
+		(net_name "/osc_out")
+		(layer "F.Cu")
+		(uuid "d0d0bb47-4368-4d87-a143-b3bdb51bc1c8")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30015)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 102.325 74.4) (xy 102.325 74.6) (xy 102.902113 74.95) (xy 103.226 74.5) (xy 102.902113 74.05)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 102.908429 74.058776) (xy 103.22108 74.493165) (xy 103.223132 74.501882) (xy 103.22108 74.506835)
+				(xy 102.908429 74.941223) (xy 102.900815 74.945936) (xy 102.892866 74.944392) (xy 102.330633 74.603416)
+				(xy 102.325336 74.596196) (xy 102.325 74.593412) (xy 102.325 74.406587) (xy 102.328427 74.398314)
+				(xy 102.330628 74.396586) (xy 102.892868 74.055606) (xy 102.901717 74.054247)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "F.Cu")
+		(uuid "d1545cbe-165e-407d-add6-dbbd9f8bdc5c")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30035)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 113.85 74.775) (xy 113.65 74.775) (xy 113.472836 75.260195) (xy 113.75 75.376) (xy 114.027164 75.260195)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 114.027164 75.260195) (xy 113.75 75.376) (xy 113.472836 75.260195) (xy 113.65 74.775) (xy 113.85 74.775)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "F.Cu")
+		(uuid "d4fd834e-472e-4257-aa11-c7db9f173f87")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30039)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 109.45 92.9427) (xy 109.25 92.9427) (xy 109.072836 93.427895) (xy 109.35 93.5437) (xy 109.627164 93.427895)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 109.627164 93.427895) (xy 109.35 93.5437) (xy 109.072836 93.427895) (xy 109.25 92.9427) (xy 109.45 92.9427)
+			)
+		)
+	)
+	(zone
+		(net 45)
+		(net_name "+5V")
+		(layer "F.Cu")
+		(uuid "d57be498-ae76-43a9-983b-a784794be1e2")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30019)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 111 90.075) (xy 110.8 90.075) (xy 110.467127 90.663896) (xy 110.9 91.001) (xy 111.332873 90.663896)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 111.001447 90.078427) (xy 111.003359 90.080943) (xy 111.327906 90.655109) (xy 111.328994 90.663997)
+				(xy 111.32491 90.670097) (xy 110.907189 90.995401) (xy 110.898556 90.997781) (xy 110.892811 90.995401)
+				(xy 110.687832 90.835772) (xy 110.475088 90.670096) (xy 110.470667 90.66231) (xy 110.472092 90.655111)
+				(xy 110.796641 90.080943) (xy 110.803695 90.075427) (xy 110.806826 90.075) (xy 110.993174 90.075)
+			)
+		)
+	)
+	(zone
+		(net 5)
+		(net_name "+3.3V")
+		(layer "F.Cu")
+		(uuid "d955ee55-1e57-4b48-9984-674916cecb55")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30000)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 117.25 83.1) (xy 117.05 83.1) (xy 116.18806 84.408658) (xy 117.15 86.001) (xy 118.11194 84.408658)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 117.251969 83.103427) (xy 117.253467 83.105264) (xy 118.107878 84.402492) (xy 118.109567 84.411286)
+				(xy 118.108121 84.414978) (xy 117.160014 85.984423) (xy 117.152803 85.989732) (xy 117.14395 85.988387)
+				(xy 117.139986 85.984423) (xy 116.191878 84.414978) (xy 116.190533 84.406125) (xy 116.192121 84.402492)
+				(xy 117.046533 83.105264) (xy 117.053946 83.10024) (xy 117.056304 83.1) (xy 117.243696 83.1)
+			)
+		)
+	)
+	(zone
+		(net 45)
+		(net_name "+5V")
+		(layer "F.Cu")
+		(uuid "da4048c3-b3e0-49ef-beac-07922209f90c")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
 		(priority 30023)
@@ -9465,10 +9830,10 @@
 		(net 1)
 		(net_name "GND")
 		(layer "F.Cu")
-		(uuid "e8d11118-bdf3-403c-a7d6-fc710eb94f8a")
+		(uuid "df5ed859-3d9f-476f-925a-32ac54d4a061")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
-		(priority 30043)
+		(priority 30029)
 		(attr
 			(teardrop
 				(type padvia)
@@ -9487,54 +9852,14 @@
 		)
 		(polygon
 			(pts
-				(xy 123.747526 78.790653) (xy 123.888947 78.932074) (xy 124.357305 78.714264) (xy 124.243207 78.436393)
-				(xy 123.965336 78.322295)
+				(xy 108.5113 74.7751) (xy 108.3113 74.7751) (xy 108.134136 75.260295) (xy 108.4113 75.3761) (xy 108.688464 75.260295)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 124.243207 78.436393) (xy 124.357305 78.714264) (xy 123.888947 78.932074) (xy 123.747526 78.790653)
-				(xy 123.965336 78.322295)
-			)
-		)
-	)
-	(zone
-		(net 45)
-		(net_name "+5V")
-		(layer "F.Cu")
-		(uuid "ec29c627-3731-4691-9454-1907c5cbba53")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30018)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 111 90.075) (xy 110.8 90.075) (xy 110.467127 90.663896) (xy 110.9 91.001) (xy 111.332873 90.663896)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 111.001447 90.078427) (xy 111.003359 90.080943) (xy 111.327906 90.655109) (xy 111.328994 90.663997)
-				(xy 111.32491 90.670097) (xy 110.907189 90.995401) (xy 110.898556 90.997781) (xy 110.892811 90.995401)
-				(xy 110.687832 90.835772) (xy 110.475088 90.670096) (xy 110.470667 90.66231) (xy 110.472092 90.655111)
-				(xy 110.796641 90.080943) (xy 110.803695 90.075427) (xy 110.806826 90.075) (xy 110.993174 90.075)
+				(xy 108.688464 75.260295) (xy 108.4113 75.3761) (xy 108.134136 75.260295) (xy 108.3113 74.7751)
+				(xy 108.5113 74.7751)
 			)
 		)
 	)
@@ -9542,7 +9867,244 @@
 		(net 5)
 		(net_name "+3.3V")
 		(layer "F.Cu")
-		(uuid "eea4a7fc-ec0b-4e13-99c2-85987ac8077e")
+		(uuid "e6e87b31-ee01-45fc-b7c8-26ec69e18e25")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30001)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 105.875 92.75) (xy 105.675 92.75) (xy 104.487448 93.75) (xy 105.2 95.001) (xy 106.551668 93.75)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 105.877063 92.753427) (xy 105.87848 92.755143) (xy 106.546038 93.74168) (xy 106.547836 93.750451)
+				(xy 106.544295 93.756823) (xy 105.210818 94.990987) (xy 105.202419 94.994091) (xy 105.194284 94.990347)
+				(xy 105.192704 94.988191) (xy 104.492268 93.758463) (xy 104.491153 93.74958) (xy 104.494898 93.743725)
+				(xy 105.671734 92.752749) (xy 105.67927 92.75) (xy 105.86879 92.75)
+			)
+		)
+	)
+	(zone
+		(net 4)
+		(net_name "/swdio")
+		(layer "F.Cu")
+		(uuid "e778a172-84fd-45fd-94a5-72fc9f8bdc6c")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30008)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 121.429736 72.102515) (xy 121.288315 72.243936) (xy 122.273959 73.218541) (xy 122.875707 72.618207)
+				(xy 122.549719 71.832202)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 122.548844 71.835938) (xy 122.55355 71.841439) (xy 122.872706 72.610973) (xy 122.87271 72.619928)
+				(xy 122.870162 72.623738) (xy 122.282185 73.210333) (xy 122.273908 73.21375) (xy 122.265696 73.21037)
+				(xy 121.659509 72.610973) (xy 121.29668 72.252207) (xy 121.293207 72.243955) (xy 121.296586 72.235664)
+				(xy 121.42741 72.10484) (xy 121.432933 72.101743) (xy 122.539998 71.834548)
+			)
+		)
+	)
+	(zone
+		(net 45)
+		(net_name "+5V")
+		(layer "F.Cu")
+		(uuid "e811bd4b-a17d-4e73-8810-ecc22690e9f4")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30025)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 124.251379 83.3662) (xy 124.3928 83.224779) (xy 124.361779 82.961123) (xy 123.761793 82.816793)
+				(xy 123.659297 83.0975)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 124.353848 82.959215) (xy 124.361091 82.964481) (xy 124.362732 82.969223) (xy 124.392137 83.219148)
+				(xy 124.3897 83.227765) (xy 124.38879 83.228788) (xy 124.257108 83.36047) (xy 124.248835 83.363897)
+				(xy 124.244 83.362851) (xy 123.669171 83.101981) (xy 123.663053 83.095442) (xy 123.663016 83.087314)
+				(xy 123.706135 82.969223) (xy 123.758214 82.826593) (xy 123.764269 82.819999) (xy 123.771937 82.819233)
+			)
+		)
+	)
+	(zone
+		(net 5)
+		(net_name "+3.3V")
+		(layer "F.Cu")
+		(uuid "ed9ef31d-74fb-436c-ac6e-8ae7374dd9d2")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30054)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 116.685355 77.326776) (xy 116.826776 77.185355) (xy 116.65 76.937868) (xy 116.499293 76.999293)
+				(xy 116.65 77.362132)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 116.650392 76.941408) (xy 116.655374 76.945392) (xy 116.821015 77.17729) (xy 116.823035 77.186013)
+				(xy 116.819767 77.192363) (xy 116.685355 77.326776) (xy 116.662368 77.349763) (xy 116.654095 77.35319)
+				(xy 116.645822 77.349763) (xy 116.64329 77.345978) (xy 116.635314 77.326776) (xy 116.503811 77.01017)
+				(xy 116.503802 77.001215) (xy 116.510128 76.994877) (xy 116.51014 76.994871) (xy 116.641439 76.941357)
+			)
+		)
+	)
+	(zone
+		(net 5)
+		(net_name "+3.3V")
+		(layer "F.Cu")
+		(uuid "ee016ce7-ec3f-43a5-91dc-3f9934385fd5")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30017)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 106.675 83.1) (xy 106.675 82.9) (xy 106.097887 82.55) (xy 105.774 83) (xy 106.097887 83.45)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 106.107132 82.555606) (xy 106.669368 82.896584) (xy 106.674664 82.903803) (xy 106.675 82.906587)
+				(xy 106.675 83.093412) (xy 106.671573 83.101685) (xy 106.669367 83.103416) (xy 106.107133 83.444392)
+				(xy 106.098282 83.445752) (xy 106.09157 83.441223) (xy 105.989041 83.298773) (xy 105.778918 83.006834)
+				(xy 105.776867 82.998118) (xy 105.778919 82.993165) (xy 106.09157 82.558775) (xy 106.099184 82.554063)
+			)
+		)
+	)
+	(zone
+		(net 4)
+		(net_name "/swdio")
+		(layer "F.Cu")
+		(uuid "f0814162-c25f-4227-a55f-92064be4c7ab")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30050)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 118.8 71.1875) (xy 118.8 70.9875) (xy 118.603701 70.943209) (xy 117.9115 71.0875) (xy 118.603701 71.231791)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 118.606178 70.943768) (xy 118.694697 70.96374) (xy 118.790875 70.985441) (xy 118.798191 70.990605)
+				(xy 118.8 70.996854) (xy 118.8 71.178145) (xy 118.796573 71.186418) (xy 118.790875 71.189558) (xy 118.606178 71.231231)
+				(xy 118.601215 71.231272) (xy 118.075216 71.121627) (xy 117.966446 71.098953) (xy 117.959048 71.093911)
+				(xy 117.957381 71.085112) (xy 117.962424 71.077713) (xy 117.966446 71.076046) (xy 118.601215 70.943727)
+			)
+		)
+	)
+	(zone
+		(net 5)
+		(net_name "+3.3V")
+		(layer "F.Cu")
+		(uuid "f4ed1de3-bf38-405d-8abc-07ee3d5f0e94")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
 		(priority 30002)
@@ -9578,167 +10140,13 @@
 		)
 	)
 	(zone
-		(net 45)
-		(net_name "+5V")
-		(layer "F.Cu")
-		(uuid "f7d835aa-8a69-47d6-a0b0-a785808a163e")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30011)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 110.8 89.8) (xy 111 89.8) (xy 111.624351 89.017549) (xy 110.85 88.299) (xy 110.123931 89.029896)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 110.858289 88.306692) (xy 111.616391 89.010163) (xy 111.620125 89.018302) (xy 111.617578 89.026036)
-				(xy 111.003513 89.795597) (xy 110.995675 89.799927) (xy 110.994368 89.8) (xy 110.805298 89.8) (xy 110.797025 89.796573)
-				(xy 110.796505 89.796019) (xy 110.13114 89.038108) (xy 110.128258 89.02963) (xy 110.131631 89.022144)
-				(xy 110.842031 88.307021) (xy 110.850292 88.303568)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "F.Cu")
-		(uuid "f976aaa2-d0d7-4e8a-9fb3-b3ba9ac8ee93")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30032)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 97.3 83.85) (xy 97.5 83.85) (xy 97.677164 83.364805) (xy 97.4 83.249) (xy 97.122836 83.364805)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 97.677164 83.364805) (xy 97.5 83.85) (xy 97.3 83.85) (xy 97.122836 83.364805) (xy 97.4 83.249)
-			)
-		)
-	)
-	(zone
-		(net 3)
-		(net_name "/osc_out")
-		(layer "F.Cu")
-		(uuid "f9820975-c41b-4497-910d-16a0b48cce13")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30014)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 103.674787 75.363908) (xy 103.816208 75.222487) (xy 103.675 74.365854) (xy 103.224293 74.499293)
-				(xy 102.998031 74.974608)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 103.671195 74.370554) (xy 103.67683 74.377514) (xy 103.677155 74.378932) (xy 103.81523 75.216559)
-				(xy 103.813195 75.225279) (xy 103.811959 75.226735) (xy 103.681125 75.357569) (xy 103.672852 75.360996)
-				(xy 103.667018 75.359438) (xy 103.007413 74.980005) (xy 103.00195 74.972909) (xy 103.002682 74.964835)
-				(xy 103.222051 74.504001) (xy 103.228701 74.498005) (xy 103.229281 74.497816) (xy 103.662292 74.369616)
-			)
-		)
-	)
-	(zone
-		(net 2)
-		(net_name "/osc_in")
-		(layer "F.Cu")
-		(uuid "fc3caba0-39f2-4837-a19e-eb51b63da2ae")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30015)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 102.325 64.4) (xy 102.325 64.6) (xy 102.902113 64.95) (xy 103.226 64.5) (xy 102.902113 64.05)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 102.908429 64.058776) (xy 103.22108 64.493165) (xy 103.223132 64.501882) (xy 103.22108 64.506835)
-				(xy 102.908429 64.941223) (xy 102.900815 64.945936) (xy 102.892866 64.944392) (xy 102.330633 64.603416)
-				(xy 102.325336 64.596196) (xy 102.325 64.593412) (xy 102.325 64.406587) (xy 102.328427 64.398314)
-				(xy 102.330628 64.396586) (xy 102.892868 64.055606) (xy 102.901717 64.054247)
-			)
-		)
-	)
-	(zone
 		(net 5)
 		(net_name "+3.3V")
 		(layer "F.Cu")
-		(uuid "fe01123d-65fb-4092-b03f-061d07b7371f")
+		(uuid "f6f7c61a-6686-421c-8b4a-be83f4cc0551")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
-		(priority 30053)
+		(priority 30049)
 		(attr
 			(teardrop
 				(type padvia)
@@ -9757,95 +10165,17 @@
 		)
 		(polygon
 			(pts
-				(xy 110.673224 68.860355) (xy 110.814645 69.001776) (xy 110.850001 69.037132) (xy 111.000707 68.674293)
-				(xy 110.85 68.612868)
+				(xy 110.475 74.1875) (xy 110.475 73.9875) (xy 110.278701 73.943209) (xy 109.5865 74.0875) (xy 110.278701 74.231791)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 110.858559 68.616356) (xy 110.989799 68.669847) (xy 110.996167 68.676143) (xy 110.996218 68.685098)
-				(xy 110.996188 68.68517) (xy 110.85671 69.020978) (xy 110.850372 69.027304) (xy 110.841417 69.027295)
-				(xy 110.837632 69.024763) (xy 110.680232 68.867363) (xy 110.676805 68.85909) (xy 110.678983 68.852291)
-				(xy 110.844626 68.620391) (xy 110.852223 68.615651)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "F.Cu")
-		(uuid "fe21ad1b-8bf5-4f1d-bc48-a3bea79eb20b")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30028)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 108.5113 74.7751) (xy 108.3113 74.7751) (xy 108.134136 75.260295) (xy 108.4113 75.3761) (xy 108.688464 75.260295)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 108.688464 75.260295) (xy 108.4113 75.3761) (xy 108.134136 75.260295) (xy 108.3113 74.7751)
-				(xy 108.5113 74.7751)
-			)
-		)
-	)
-	(zone
-		(net 42)
-		(net_name "/NRST")
-		(layer "F.Cu")
-		(uuid "ffd10189-f7cd-4b33-8f3e-49348eca26ea")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30003)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 101.734924 86.406497) (xy 101.593503 86.265076) (xy 99.867317 86.82612) (xy 100.249293 87.750707)
-				(xy 101.17388 88.132683)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 101.595611 86.267994) (xy 101.598573 86.270146) (xy 101.729853 86.401426) (xy 101.73328 86.409699)
-				(xy 101.732707 86.413316) (xy 101.177788 88.120658) (xy 101.171972 88.127466) (xy 101.163044 88.128168)
-				(xy 101.162194 88.127855) (xy 100.253784 87.752562) (xy 100.247446 87.746235) (xy 100.247437 87.746215)
-				(xy 99.872144 86.837805) (xy 99.872153 86.828851) (xy 99.878491 86.822524) (xy 99.879318 86.822219)
-				(xy 101.586684 86.267292)
+				(xy 110.281178 73.943768) (xy 110.369697 73.96374) (xy 110.465875 73.985441) (xy 110.473191 73.990605)
+				(xy 110.475 73.996854) (xy 110.475 74.178145) (xy 110.471573 74.186418) (xy 110.465875 74.189558)
+				(xy 110.281178 74.231231) (xy 110.276215 74.231272) (xy 109.750216 74.121627) (xy 109.641446 74.098953)
+				(xy 109.634048 74.093911) (xy 109.632381 74.085112) (xy 109.637424 74.077713) (xy 109.641446 74.076046)
+				(xy 110.276215 73.943727)
 			)
 		)
 	)
@@ -10013,7 +10343,7 @@
 				(xy 126.186526 60.54571) (xy 126.186525 60.545712) (xy 126.053415 60.762928) (xy 125.955925 60.998291)
 				(xy 125.955923 60.998298) (xy 125.955923 60.998299) (xy 125.933788 61.090499) (xy 125.896448 61.246028)
 				(xy 125.876461 61.5) (xy 125.896448 61.753971) (xy 125.896448 61.753974) (xy 125.896449 61.753977)
-				(xy 125.955923 62.001701) (xy 125.955925 62.001708) (xy 126.053415 62.237071) (xy 126.186525 62.454287)
+				(xy 125.941461 61.941462) (xy 125.955925 62.001708) (xy 126.053415 62.237071) (xy 126.186525 62.454287)
 				(xy 126.186526 62.454288) (xy 126.186527 62.45429) (xy 126.186529 62.454292) (xy 126.351985 62.648015)
 				(xy 126.545708 62.813471) (xy 126.54571 62.813472) (xy 126.545711 62.813473) (xy 126.545712 62.813474)
 				(xy 126.762928 62.946584) (xy 126.998292 63.044074) (xy 126.998289 63.044074) (xy 126.998295 63.044075)
@@ -10056,68 +10386,91 @@
 				(xy 126.306679 100.094969) (xy 126.33525 100.158729) (xy 126.324813 100.227815) (xy 126.278682 100.280291)
 				(xy 126.212389 100.2995) (xy 93.787611 100.2995) (xy 93.720572 100.279815) (xy 93.674817 100.227011)
 				(xy 93.664873 100.157853) (xy 93.69332 100.094969) (xy 93.813471 99.954292) (xy 93.946584 99.737071)
-				(xy 94.044077 99.501701) (xy 94.103551 99.253977) (xy 94.123539 99) (xy 94.103551 98.746023) (xy 94.044077 98.498299)
-				(xy 94.044074 98.498291) (xy 93.946584 98.262928) (xy 93.813474 98.045712) (xy 93.813473 98.045711)
-				(xy 93.813472 98.04571) (xy 93.813471 98.045708) (xy 93.648015 97.851985) (xy 93.454292 97.686529)
-				(xy 93.45429 97.686527) (xy 93.454288 97.686526) (xy 93.454287 97.686525) (xy 93.237071 97.553415)
-				(xy 93.001707 97.455925) (xy 93.00171 97.455925) (xy 92.935477 97.440024) (xy 92.753977 97.396449)
-				(xy 92.753974 97.396448) (xy 92.753971 97.396448) (xy 92.5 97.376461) (xy 92.246028 97.396448) (xy 92.246024 97.396448)
-				(xy 92.246023 97.396449) (xy 91.998299 97.455923) (xy 91.998291 97.455925) (xy 91.762928 97.553415)
-				(xy 91.545712 97.686525) (xy 91.545711 97.686526) (xy 91.351985 97.851985) (xy 91.21879 98.007935)
-				(xy 91.160283 98.046128) (xy 91.090415 98.046626) (xy 91.031369 98.009272) (xy 91.001891 97.945925)
-				(xy 91.0005 97.927403) (xy 91.0005 97.081582) (xy 114.062501 97.081582) (xy 114.068908 97.152102)
-				(xy 114.068909 97.152107) (xy 114.119481 97.314396) (xy 114.207427 97.459877) (xy 114.327622 97.580072)
-				(xy 114.473104 97.668019) (xy 114.473103 97.668019) (xy 114.635394 97.71859) (xy 114.635393 97.71859)
-				(xy 114.705908 97.724998) (xy 114.705926 97.724999) (xy 114.712499 97.724998) (xy 114.7125 97.724998)
-				(xy 114.7125 97) (xy 114.062501 97) (xy 114.062501 97.081582) (xy 91.0005 97.081582) (xy 91.0005 96.049986)
-				(xy 95.100001 96.049986) (xy 95.110494 96.152697) (xy 95.165641 96.319119) (xy 95.165643 96.319124)
-				(xy 95.257684 96.468345) (xy 95.381654 96.592315) (xy 95.530875 96.684356) (xy 95.53088 96.684358)
-				(xy 95.697302 96.739505) (xy 95.697309 96.739506) (xy 95.800019 96.749999) (xy 97.549999 96.749999)
-				(xy 98.05 96.749999) (xy 99.799972 96.749999) (xy 99.799986 96.749998) (xy 99.902697 96.739505)
-				(xy 100.069119 96.684358) (xy 100.069124 96.684356) (xy 100.218345 96.592315) (xy 100.342315 96.468345)
-				(xy 100.434356 96.319124) (xy 100.434358 96.319119) (xy 100.489505 96.152697) (xy 100.489506 96.15269)
-				(xy 100.499999 96.049986) (xy 100.5 96.049973) (xy 100.5 95.25) (xy 98.05 95.25) (xy 98.05 96.749999)
-				(xy 97.549999 96.749999) (xy 97.55 96.749998) (xy 97.55 95.25) (xy 95.100001 95.25) (xy 95.100001 96.049986)
-				(xy 91.0005 96.049986) (xy 91.0005 93.950013) (xy 95.1 93.950013) (xy 95.1 94.75) (xy 97.55 94.75)
-				(xy 98.05 94.75) (xy 100.499999 94.75) (xy 100.499999 93.950028) (xy 100.499998 93.950013) (xy 100.489505 93.847302)
-				(xy 100.434358 93.68088) (xy 100.434356 93.680875) (xy 100.342315 93.531654) (xy 100.218345 93.407684)
-				(xy 100.069124 93.315643) (xy 100.069119 93.315641) (xy 99.902697 93.260494) (xy 99.90269 93.260493)
-				(xy 99.799986 93.25) (xy 98.05 93.25) (xy 98.05 94.75) (xy 97.55 94.75) (xy 97.55 93.25) (xy 95.800028 93.25)
-				(xy 95.800012 93.250001) (xy 95.697302 93.260494) (xy 95.53088 93.315641) (xy 95.530875 93.315643)
-				(xy 95.381654 93.407684) (xy 95.257684 93.531654) (xy 95.165643 93.680875) (xy 95.165641 93.68088)
-				(xy 95.110494 93.847302) (xy 95.110493 93.847309) (xy 95.1 93.950013) (xy 91.0005 93.950013) (xy 91.0005 87.749994)
-				(xy 92.244357 87.749994) (xy 92.244357 87.750005) (xy 92.26489 87.997812) (xy 92.264892 87.997824)
-				(xy 92.325936 88.238881) (xy 92.425826 88.466606) (xy 92.561833 88.674782) (xy 92.561836 88.674785)
-				(xy 92.730256 88.857738) (xy 92.926491 89.010474) (xy 93.14519 89.128828) (xy 93.380386 89.209571)
-				(xy 93.625665 89.2505) (xy 93.874335 89.2505) (xy 94.119614 89.209571) (xy 94.35481 89.128828) (xy 94.573509 89.010474)
-				(xy 94.769744 88.857738) (xy 94.938164 88.674785) (xy 95.074173 88.466607) (xy 95.174063 88.238881)
-				(xy 95.235108 87.997821) (xy 95.238891 87.952168) (xy 95.255643 87.750005) (xy 95.255643 87.749994)
-				(xy 95.235109 87.502187) (xy 95.235107 87.502175) (xy 95.174063 87.261118) (xy 95.074173 87.033393)
-				(xy 94.938166 86.825217) (xy 94.884091 86.766476) (xy 94.769744 86.642262) (xy 94.573509 86.489526)
-				(xy 94.573507 86.489525) (xy 94.573506 86.489524) (xy 94.354811 86.371172) (xy 94.354802 86.371169)
-				(xy 94.119616 86.290429) (xy 93.874335 86.2495) (xy 93.625665 86.2495) (xy 93.380383 86.290429)
-				(xy 93.145197 86.371169) (xy 93.145188 86.371172) (xy 92.926493 86.489524) (xy 92.730257 86.642261)
-				(xy 92.561833 86.825217) (xy 92.425826 87.033393) (xy 92.325936 87.261118) (xy 92.264892 87.502175)
-				(xy 92.26489 87.502187) (xy 92.244357 87.749994) (xy 91.0005 87.749994) (xy 91.0005 83.249994) (xy 92.244859 83.249994)
-				(xy 92.244859 83.25) (xy 92.265385 83.497729) (xy 92.265387 83.497738) (xy 92.326412 83.738717)
-				(xy 92.426267 83.966367) (xy 92.526562 84.119881) (xy 93.226212 83.420233) (xy 93.237482 83.462292)
-				(xy 93.30989 83.587708) (xy 93.412292 83.69011) (xy 93.537708 83.762518) (xy 93.579766 83.773787)
-				(xy 92.879943 84.473609) (xy 92.926768 84.510055) (xy 92.926771 84.510057) (xy 93.145385 84.628364)
-				(xy 93.145396 84.628369) (xy 93.380506 84.709083) (xy 93.625707 84.75) (xy 93.874293 84.75) (xy 94.119493 84.709083)
-				(xy 94.354603 84.628369) (xy 94.354614 84.628364) (xy 94.57323 84.510056) (xy 94.573236 84.510051)
-				(xy 94.620055 84.47361) (xy 94.620056 84.473609) (xy 93.920233 83.773787) (xy 93.962292 83.762518)
-				(xy 94.087708 83.69011) (xy 94.19011 83.587708) (xy 94.262518 83.462292) (xy 94.273787 83.420233)
-				(xy 94.973435 84.119882) (xy 95.073733 83.966364) (xy 95.173587 83.738717) (xy 95.234612 83.497738)
-				(xy 95.234614 83.497729) (xy 95.255141 83.25) (xy 95.255141 83.249994) (xy 95.234614 83.00227) (xy 95.234612 83.002261)
-				(xy 95.173587 82.761282) (xy 95.073732 82.533632) (xy 94.973435 82.380116) (xy 94.273787 83.079765)
-				(xy 94.262518 83.037708) (xy 94.19011 82.912292) (xy 94.087708 82.80989) (xy 93.962292 82.737482)
-				(xy 93.920233 82.726212) (xy 94.620055 82.026389) (xy 94.620055 82.026388) (xy 94.573236 81.989947)
-				(xy 94.573231 81.989944) (xy 94.354614 81.871635) (xy 94.354603 81.87163) (xy 94.119493 81.790916)
-				(xy 93.874293 81.75) (xy 93.625707 81.75) (xy 93.380506 81.790916) (xy 93.145396 81.87163) (xy 93.145385 81.871635)
-				(xy 92.92677 81.989943) (xy 92.879943 82.026389) (xy 93.579766 82.726212) (xy 93.537708 82.737482)
-				(xy 93.412292 82.80989) (xy 93.30989 82.912292) (xy 93.237482 83.037708) (xy 93.226212 83.079766)
-				(xy 92.526563 82.380117) (xy 92.426267 82.533633) (xy 92.426265 82.533637) (xy 92.326412 82.761282)
-				(xy 92.265387 83.002261) (xy 92.265385 83.00227) (xy 92.244859 83.249994) (xy 91.0005 83.249994)
+				(xy 94.044077 99.501701) (xy 94.103551 99.253977) (xy 94.123539 99) (xy 94.103551 98.746023) (xy 94.044485 98.5)
+				(xy 122.994659 98.5) (xy 123.013975 98.696129) (xy 123.071188 98.884733) (xy 123.164086 99.058532)
+				(xy 123.16409 99.058539) (xy 123.289116 99.210883) (xy 123.44146 99.335909) (xy 123.441467 99.335913)
+				(xy 123.615266 99.428811) (xy 123.615269 99.428811) (xy 123.615273 99.428814) (xy 123.803868 99.486024)
+				(xy 124 99.505341) (xy 124.196132 99.486024) (xy 124.384727 99.428814) (xy 124.558538 99.33591)
+				(xy 124.710883 99.210883) (xy 124.83591 99.058538) (xy 124.928814 98.884727) (xy 124.986024 98.696132)
+				(xy 125.005341 98.5) (xy 124.986024 98.303868) (xy 124.928814 98.115273) (xy 124.928811 98.115269)
+				(xy 124.928811 98.115266) (xy 124.835913 97.941467) (xy 124.835909 97.94146) (xy 124.710883 97.789116)
+				(xy 124.558539 97.66409) (xy 124.558532 97.664086) (xy 124.384733 97.571188) (xy 124.384727 97.571186)
+				(xy 124.196132 97.513976) (xy 124.196129 97.513975) (xy 124 97.494659) (xy 123.80387 97.513975)
+				(xy 123.615266 97.571188) (xy 123.441467 97.664086) (xy 123.44146 97.66409) (xy 123.289116 97.789116)
+				(xy 123.16409 97.94146) (xy 123.164086 97.941467) (xy 123.071188 98.115266) (xy 123.013975 98.30387)
+				(xy 122.994659 98.5) (xy 94.044485 98.5) (xy 94.044077 98.498299) (xy 94.044074 98.498291) (xy 93.946584 98.262928)
+				(xy 93.813474 98.045712) (xy 93.813473 98.045711) (xy 93.813472 98.04571) (xy 93.813471 98.045708)
+				(xy 93.648015 97.851985) (xy 93.454292 97.686529) (xy 93.45429 97.686527) (xy 93.454288 97.686526)
+				(xy 93.454287 97.686525) (xy 93.237071 97.553415) (xy 93.001707 97.455925) (xy 93.00171 97.455925)
+				(xy 92.935477 97.440024) (xy 92.753977 97.396449) (xy 92.753974 97.396448) (xy 92.753971 97.396448)
+				(xy 92.5 97.376461) (xy 92.246028 97.396448) (xy 92.246024 97.396448) (xy 92.246023 97.396449) (xy 91.998299 97.455923)
+				(xy 91.998291 97.455925) (xy 91.762928 97.553415) (xy 91.545712 97.686525) (xy 91.545711 97.686526)
+				(xy 91.351985 97.851985) (xy 91.21879 98.007935) (xy 91.160283 98.046128) (xy 91.090415 98.046626)
+				(xy 91.031369 98.009272) (xy 91.001891 97.945925) (xy 91.0005 97.927403) (xy 91.0005 97.081582)
+				(xy 114.062501 97.081582) (xy 114.068908 97.152102) (xy 114.068909 97.152107) (xy 114.119481 97.314396)
+				(xy 114.207427 97.459877) (xy 114.327622 97.580072) (xy 114.473104 97.668019) (xy 114.473103 97.668019)
+				(xy 114.635394 97.71859) (xy 114.635393 97.71859) (xy 114.705908 97.724998) (xy 114.705926 97.724999)
+				(xy 114.712499 97.724998) (xy 114.7125 97.724998) (xy 114.7125 97) (xy 114.062501 97) (xy 114.062501 97.081582)
+				(xy 91.0005 97.081582) (xy 91.0005 96.049986) (xy 95.100001 96.049986) (xy 95.110494 96.152697)
+				(xy 95.165641 96.319119) (xy 95.165643 96.319124) (xy 95.257684 96.468345) (xy 95.381654 96.592315)
+				(xy 95.530875 96.684356) (xy 95.53088 96.684358) (xy 95.697302 96.739505) (xy 95.697309 96.739506)
+				(xy 95.800019 96.749999) (xy 97.549999 96.749999) (xy 98.05 96.749999) (xy 99.799972 96.749999)
+				(xy 99.799986 96.749998) (xy 99.902697 96.739505) (xy 100.069119 96.684358) (xy 100.069124 96.684356)
+				(xy 100.218345 96.592315) (xy 100.342315 96.468345) (xy 100.434356 96.319124) (xy 100.434358 96.319119)
+				(xy 100.489505 96.152697) (xy 100.489506 96.15269) (xy 100.499999 96.049986) (xy 100.5 96.049973)
+				(xy 100.5 95.25) (xy 98.05 95.25) (xy 98.05 96.749999) (xy 97.549999 96.749999) (xy 97.55 96.749998)
+				(xy 97.55 95.25) (xy 95.100001 95.25) (xy 95.100001 96.049986) (xy 91.0005 96.049986) (xy 91.0005 93.950013)
+				(xy 95.1 93.950013) (xy 95.1 94.75) (xy 97.55 94.75) (xy 98.05 94.75) (xy 100.499999 94.75) (xy 100.499999 93.950028)
+				(xy 100.499998 93.950013) (xy 100.489505 93.847302) (xy 100.434358 93.68088) (xy 100.434356 93.680875)
+				(xy 100.342315 93.531654) (xy 100.218345 93.407684) (xy 100.069124 93.315643) (xy 100.069119 93.315641)
+				(xy 99.902697 93.260494) (xy 99.90269 93.260493) (xy 99.799986 93.25) (xy 98.05 93.25) (xy 98.05 94.75)
+				(xy 97.55 94.75) (xy 97.55 93.25) (xy 95.800028 93.25) (xy 95.800012 93.250001) (xy 95.697302 93.260494)
+				(xy 95.53088 93.315641) (xy 95.530875 93.315643) (xy 95.381654 93.407684) (xy 95.257684 93.531654)
+				(xy 95.165643 93.680875) (xy 95.165641 93.68088) (xy 95.110494 93.847302) (xy 95.110493 93.847309)
+				(xy 95.1 93.950013) (xy 91.0005 93.950013) (xy 91.0005 87.749994) (xy 92.244357 87.749994) (xy 92.244357 87.750005)
+				(xy 92.26489 87.997812) (xy 92.264892 87.997824) (xy 92.325936 88.238881) (xy 92.425826 88.466606)
+				(xy 92.561833 88.674782) (xy 92.561836 88.674785) (xy 92.730256 88.857738) (xy 92.926491 89.010474)
+				(xy 93.14519 89.128828) (xy 93.380386 89.209571) (xy 93.625665 89.2505) (xy 93.874335 89.2505) (xy 94.119614 89.209571)
+				(xy 94.35481 89.128828) (xy 94.573509 89.010474) (xy 94.769744 88.857738) (xy 94.938164 88.674785)
+				(xy 95.074173 88.466607) (xy 95.174063 88.238881) (xy 95.235108 87.997821) (xy 95.238891 87.952168)
+				(xy 95.255643 87.750005) (xy 95.255643 87.749994) (xy 95.235109 87.502187) (xy 95.235107 87.502175)
+				(xy 95.174063 87.261118) (xy 95.074173 87.033393) (xy 94.938166 86.825217) (xy 94.884091 86.766476)
+				(xy 94.769744 86.642262) (xy 94.573509 86.489526) (xy 94.573507 86.489525) (xy 94.573506 86.489524)
+				(xy 94.354811 86.371172) (xy 94.354802 86.371169) (xy 94.119616 86.290429) (xy 93.874335 86.2495)
+				(xy 93.625665 86.2495) (xy 93.380383 86.290429) (xy 93.145197 86.371169) (xy 93.145188 86.371172)
+				(xy 92.926493 86.489524) (xy 92.730257 86.642261) (xy 92.561833 86.825217) (xy 92.425826 87.033393)
+				(xy 92.325936 87.261118) (xy 92.264892 87.502175) (xy 92.26489 87.502187) (xy 92.244357 87.749994)
+				(xy 91.0005 87.749994) (xy 91.0005 83.249994) (xy 92.244859 83.249994) (xy 92.244859 83.25) (xy 92.265385 83.497729)
+				(xy 92.265387 83.497738) (xy 92.326412 83.738717) (xy 92.426267 83.966367) (xy 92.526562 84.119881)
+				(xy 93.226212 83.420233) (xy 93.237482 83.462292) (xy 93.30989 83.587708) (xy 93.412292 83.69011)
+				(xy 93.537708 83.762518) (xy 93.579766 83.773787) (xy 92.879943 84.473609) (xy 92.926768 84.510055)
+				(xy 92.926771 84.510057) (xy 93.145385 84.628364) (xy 93.145396 84.628369) (xy 93.380506 84.709083)
+				(xy 93.625707 84.75) (xy 93.874293 84.75) (xy 94.119493 84.709083) (xy 94.354603 84.628369) (xy 94.354614 84.628364)
+				(xy 94.57323 84.510056) (xy 94.573236 84.510051) (xy 94.620055 84.47361) (xy 94.620056 84.473609)
+				(xy 93.920233 83.773787) (xy 93.962292 83.762518) (xy 94.087708 83.69011) (xy 94.19011 83.587708)
+				(xy 94.262518 83.462292) (xy 94.273787 83.420234) (xy 94.973435 84.119882) (xy 95.073733 83.966364)
+				(xy 95.173587 83.738717) (xy 95.234612 83.497738) (xy 95.234614 83.497729) (xy 95.255141 83.25)
+				(xy 95.255141 83.249994) (xy 95.234614 83.00227) (xy 95.234612 83.002261) (xy 95.173587 82.761282)
+				(xy 95.073732 82.533632) (xy 94.973435 82.380116) (xy 94.273787 83.079765) (xy 94.262518 83.037708)
+				(xy 94.19011 82.912292) (xy 94.087708 82.80989) (xy 93.962292 82.737482) (xy 93.920233 82.726212)
+				(xy 94.620055 82.026389) (xy 94.620055 82.026388) (xy 94.573236 81.989947) (xy 94.573231 81.989944)
+				(xy 94.354614 81.871635) (xy 94.354603 81.87163) (xy 94.119493 81.790916) (xy 93.874293 81.75) (xy 93.625707 81.75)
+				(xy 93.380506 81.790916) (xy 93.145396 81.87163) (xy 93.145385 81.871635) (xy 92.92677 81.989943)
+				(xy 92.879943 82.026389) (xy 93.579766 82.726212) (xy 93.537708 82.737482) (xy 93.412292 82.80989)
+				(xy 93.30989 82.912292) (xy 93.237482 83.037708) (xy 93.226212 83.079766) (xy 92.526563 82.380117)
+				(xy 92.426267 82.533633) (xy 92.426265 82.533637) (xy 92.326412 82.761282) (xy 92.265387 83.002261)
+				(xy 92.265385 83.00227) (xy 92.244859 83.249994) (xy 91.0005 83.249994) (xy 91.0005 65) (xy 91.994659 65)
+				(xy 92.013975 65.196129) (xy 92.071188 65.384733) (xy 92.164086 65.558532) (xy 92.16409 65.558539)
+				(xy 92.289116 65.710883) (xy 92.44146 65.835909) (xy 92.441467 65.835913) (xy 92.615266 65.928811)
+				(xy 92.615269 65.928811) (xy 92.615273 65.928814) (xy 92.803868 65.986024) (xy 93 66.005341) (xy 93.196132 65.986024)
+				(xy 93.384727 65.928814) (xy 93.558538 65.83591) (xy 93.710883 65.710883) (xy 93.83591 65.558538)
+				(xy 93.914237 65.411998) (xy 93.928811 65.384733) (xy 93.928811 65.384732) (xy 93.928814 65.384727)
+				(xy 93.986024 65.196132) (xy 94.005341 65) (xy 93.986024 64.803868) (xy 93.928814 64.615273) (xy 93.928811 64.615269)
+				(xy 93.928811 64.615266) (xy 93.835913 64.441467) (xy 93.835909 64.44146) (xy 93.710883 64.289116)
+				(xy 93.558539 64.16409) (xy 93.558532 64.164086) (xy 93.384733 64.071188) (xy 93.384727 64.071186)
+				(xy 93.258997 64.033046) (xy 93.196129 64.013975) (xy 93 63.994659) (xy 92.80387 64.013975) (xy 92.615266 64.071188)
+				(xy 92.441467 64.164086) (xy 92.44146 64.16409) (xy 92.289116 64.289116) (xy 92.16409 64.44146)
+				(xy 92.164086 64.441467) (xy 92.071188 64.615266) (xy 92.013975 64.80387) (xy 91.994659 65) (xy 91.0005 65)
 				(xy 91.0005 63.452135) (xy 96.4995 63.452135) (xy 96.4995 68.04787) (xy 96.499501 68.047876) (xy 96.505908 68.107483)
 				(xy 96.556202 68.242328) (xy 96.556206 68.242335) (xy 96.642452 68.357544) (xy 96.642455 68.357547)
 				(xy 96.757664 68.443793) (xy 96.757671 68.443797) (xy 96.892517 68.494091) (xy 96.892516 68.494091)
@@ -10521,7 +10874,7 @@
 				(xy 108.365374 70.35421) (xy 108.364313 70.362262) (xy 108.364313 70.362264) (xy 108.362085 70.379188)
 				(xy 108.358461 70.406712) (xy 108.330193 70.470608) (xy 108.271868 70.509078) (xy 108.202003 70.509908)
 				(xy 108.147841 70.478205) (xy 106.148619 68.478983) (xy 106.115134 68.41766) (xy 106.1123 68.391302)
-				(xy 106.1123 64.18746) (xy 106.112301 64.187447) (xy 106.112301 64.019344) (xy 106.112301 64.019343)
+				(xy 106.1123 64.18746) (xy 106.112301 64.187447) (xy 106.112301 64.019344) (xy 106.110863 64.013976)
 				(xy 106.071377 63.866616) (xy 106.071373 63.866609) (xy 105.992324 63.72969) (xy 105.992318 63.729682)
 				(xy 105.543817 63.281181) (xy 105.543812 63.281177) (xy 105.428518 63.214613) (xy 105.406885 63.202123)
 				(xy 105.254157 63.161199) (xy 105.096043 63.161199) (xy 105.088447 63.161199) (xy 105.088431 63.1612)
@@ -10547,11 +10900,22 @@
 				(xy 91.545708 62.813471) (xy 91.54571 62.813472) (xy 91.545711 62.813473) (xy 91.545712 62.813474)
 				(xy 91.762928 62.946584) (xy 91.998292 63.044074) (xy 91.998289 63.044074) (xy 91.998295 63.044075)
 				(xy 91.998299 63.044077) (xy 92.246023 63.103551) (xy 92.5 63.123539) (xy 92.753977 63.103551) (xy 93.001701 63.044077)
-				(xy 93.237071 62.946584) (xy 93.454292 62.813471) (xy 93.648015 62.648015) (xy 93.813471 62.454292)
-				(xy 93.946584 62.237071) (xy 94.044077 62.001701) (xy 94.103551 61.753977) (xy 94.123539 61.5) (xy 94.103551 61.246023)
-				(xy 94.044077 60.998299) (xy 94.044074 60.998291) (xy 93.946584 60.762928) (xy 93.813474 60.545712)
-				(xy 93.813473 60.54571) (xy 93.77873 60.505032) (xy 93.750159 60.44127) (xy 93.760596 60.372185)
-				(xy 93.806727 60.319709) (xy 93.87302 60.3005) (xy 126.12698 60.3005)
+				(xy 93.237071 62.946584) (xy 93.454292 62.813471) (xy 93.648015 62.648015) (xy 93.774432 62.5) (xy 120.994659 62.5)
+				(xy 121.013975 62.696129) (xy 121.071188 62.884733) (xy 121.164086 63.058532) (xy 121.16409 63.058539)
+				(xy 121.289116 63.210883) (xy 121.44146 63.335909) (xy 121.441467 63.335913) (xy 121.615266 63.428811)
+				(xy 121.615269 63.428811) (xy 121.615273 63.428814) (xy 121.803868 63.486024) (xy 122 63.505341)
+				(xy 122.196132 63.486024) (xy 122.384727 63.428814) (xy 122.558538 63.33591) (xy 122.710883 63.210883)
+				(xy 122.83591 63.058538) (xy 122.928814 62.884727) (xy 122.986024 62.696132) (xy 123.005341 62.5)
+				(xy 122.986024 62.303868) (xy 122.928814 62.115273) (xy 122.928811 62.115269) (xy 122.928811 62.115266)
+				(xy 122.835913 61.941467) (xy 122.835909 61.94146) (xy 122.710883 61.789116) (xy 122.558539 61.66409)
+				(xy 122.558532 61.664086) (xy 122.384733 61.571188) (xy 122.384727 61.571186) (xy 122.196132 61.513976)
+				(xy 122.196129 61.513975) (xy 122 61.494659) (xy 121.80387 61.513975) (xy 121.615266 61.571188)
+				(xy 121.441467 61.664086) (xy 121.44146 61.66409) (xy 121.289116 61.789116) (xy 121.16409 61.94146)
+				(xy 121.164086 61.941467) (xy 121.071188 62.115266) (xy 121.013975 62.30387) (xy 120.994659 62.5)
+				(xy 93.774432 62.5) (xy 93.813471 62.454292) (xy 93.946584 62.237071) (xy 94.044077 62.001701) (xy 94.103551 61.753977)
+				(xy 94.123539 61.5) (xy 94.103551 61.246023) (xy 94.044077 60.998299) (xy 94.044074 60.998291) (xy 93.946584 60.762928)
+				(xy 93.813474 60.545712) (xy 93.813473 60.54571) (xy 93.77873 60.505032) (xy 93.750159 60.44127)
+				(xy 93.760596 60.372185) (xy 93.806727 60.319709) (xy 93.87302 60.3005) (xy 126.12698 60.3005)
 			)
 		)
 		(filled_polygon
@@ -10667,7 +11031,7 @@
 				(xy 93.145396 84.628369) (xy 93.380506 84.709083) (xy 93.625707 84.75) (xy 93.874293 84.75) (xy 94.119493 84.709083)
 				(xy 94.354603 84.628369) (xy 94.354614 84.628364) (xy 94.57323 84.510056) (xy 94.573236 84.510051)
 				(xy 94.620055 84.47361) (xy 94.620056 84.473609) (xy 93.920233 83.773787) (xy 93.962292 83.762518)
-				(xy 94.087708 83.69011) (xy 94.19011 83.587708) (xy 94.262518 83.462292) (xy 94.273787 83.420233)
+				(xy 94.087708 83.69011) (xy 94.19011 83.587708) (xy 94.262518 83.462292) (xy 94.273787 83.420234)
 				(xy 94.973435 84.119882) (xy 95.073733 83.966364) (xy 95.173587 83.738717) (xy 95.234612 83.497738)
 				(xy 95.234614 83.497729) (xy 95.255141 83.250005) (xy 95.255141 83.249994) (xy 98.744859 83.249994)
 				(xy 98.744859 83.250005) (xy 98.765385 83.497729) (xy 98.765387 83.497738) (xy 98.826412 83.738717)
@@ -10677,7 +11041,7 @@
 				(xy 99.645396 84.628369) (xy 99.880506 84.709083) (xy 100.125707 84.75) (xy 100.374293 84.75) (xy 100.619493 84.709083)
 				(xy 100.854603 84.628369) (xy 100.854614 84.628364) (xy 101.07323 84.510056) (xy 101.073236 84.510051)
 				(xy 101.120055 84.47361) (xy 101.120056 84.473609) (xy 100.420233 83.773787) (xy 100.462292 83.762518)
-				(xy 100.587708 83.69011) (xy 100.69011 83.587708) (xy 100.762518 83.462292) (xy 100.773787 83.420233)
+				(xy 100.587708 83.69011) (xy 100.69011 83.587708) (xy 100.762518 83.462292) (xy 100.773787 83.420234)
 				(xy 101.473435 84.119882) (xy 101.573733 83.966364) (xy 101.673587 83.738717) (xy 101.734612 83.497738)
 				(xy 101.734614 83.497729) (xy 101.755141 83.250005) (xy 101.755141 83.249994) (xy 101.734614 83.00227)
 				(xy 101.734612 83.002261) (xy 101.673587 82.761282) (xy 101.573732 82.533632) (xy 101.473435 82.380116)
@@ -10786,13 +11150,124 @@
 		)
 	)
 	(zone
+		(net 42)
+		(net_name "/NRST")
+		(layer "B.Cu")
+		(uuid "03df5c45-80bb-4c6d-87a6-ff77906d55f7")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30000)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 98.25 87.65) (xy 98.25 87.85) (xy 99.867317 88.67388) (xy 100.251 87.75) (xy 99.867317 86.82612)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 99.871786 86.836973) (xy 99.872166 86.837797) (xy 100.249136 87.745513) (xy 100.249145 87.754467)
+				(xy 100.249136 87.754487) (xy 99.872166 88.662202) (xy 99.865828 88.668529) (xy 99.856874 88.66852)
+				(xy 99.85605 88.66814) (xy 98.256389 87.853254) (xy 98.250573 87.846446) (xy 98.25 87.842829) (xy 98.25 87.65717)
+				(xy 98.253427 87.648897) (xy 98.256387 87.646746) (xy 99.856051 86.831858) (xy 99.864978 86.831157)
+			)
+		)
+	)
+	(zone
 		(net 1)
 		(net_name "GND")
 		(layer "B.Cu")
-		(uuid "00271cf1-0b03-4ba5-a917-8b70d85f6705")
+		(uuid "228d5643-a876-489b-9634-1968ef54479a")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
-		(priority 30007)
+		(priority 30013)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 115.4 75.275) (xy 115.4 75.475) (xy 115.885195 75.652164) (xy 116.001 75.375) (xy 115.885195 75.097836)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 116.001 75.375) (xy 115.885195 75.652164) (xy 115.4 75.475) (xy 115.4 75.275) (xy 115.885195 75.097836)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "B.Cu")
+		(uuid "264b4e6c-165c-4af3-abb9-fc73fc16c7ad")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30006)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 96.8 83.15) (xy 96.8 83.35) (xy 97.285195 83.527164) (xy 97.401 83.25) (xy 97.285195 82.972836)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 97.401 83.25) (xy 97.285195 83.527164) (xy 96.8 83.35) (xy 96.8 83.15) (xy 97.285195 82.972836)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "B.Cu")
+		(uuid "2b799be9-74a4-499a-a3fe-67f2fe1873dc")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30012)
 		(attr
 			(teardrop
 				(type padvia)
@@ -10822,10 +11297,704 @@
 		)
 	)
 	(zone
+		(net 42)
+		(net_name "/NRST")
+		(layer "B.Cu")
+		(uuid "36f465ea-b65d-4473-b04b-02670b09ce17")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30001)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 95.75 87.85) (xy 95.75 87.65) (xy 94.132683 86.82612) (xy 93.749 87.75) (xy 94.132683 88.67388)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 94.143125 86.831479) (xy 94.143948 86.831858) (xy 95.743611 87.646745) (xy 95.749427 87.653553)
+				(xy 95.75 87.65717) (xy 95.75 87.842829) (xy 95.746573 87.851102) (xy 95.743611 87.853254) (xy 94.143949 88.66814)
+				(xy 94.135021 88.668842) (xy 94.128213 88.663026) (xy 94.127833 88.662202) (xy 93.750862 87.754485)
+				(xy 93.750854 87.745535) (xy 94.127834 86.837795) (xy 94.134171 86.83147)
+			)
+		)
+	)
+	(zone
 		(net 1)
 		(net_name "GND")
 		(layer "B.Cu")
-		(uuid "0b6ec3c1-d409-4603-8a71-d995aeae3d0b")
+		(uuid "489bc2c3-fe79-4df3-9fa2-99cebfb6992c")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30008)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 121.8875 88.7575) (xy 121.8875 88.5575) (xy 121.402305 88.380336) (xy 121.2865 88.6575) (xy 121.402305 88.934664)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 121.8875 88.5575) (xy 121.8875 88.7575) (xy 121.402305 88.934664) (xy 121.2865 88.6575) (xy 121.402305 88.380336)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "B.Cu")
+		(uuid "57f9cb6f-cb63-4b24-b49a-9bcf40fbe314")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30002)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 114.3625 93.4427) (xy 114.3625 93.6427) (xy 114.847695 93.819864) (xy 114.9635 93.5427) (xy 114.847695 93.265536)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 114.9635 93.5427) (xy 114.847695 93.819864) (xy 114.3625 93.6427) (xy 114.3625 93.4427) (xy 114.847695 93.265536)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "B.Cu")
+		(uuid "6049cc32-09bb-42fc-9e91-6d3a357a7151")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30007)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 102.4875 84.7307) (xy 102.4875 84.9307) (xy 102.972695 85.107864) (xy 103.0885 84.8307) (xy 102.972695 84.553536)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 103.0885 84.8307) (xy 102.972695 85.107864) (xy 102.4875 84.9307) (xy 102.4875 84.7307) (xy 102.972695 84.553536)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "B.Cu")
+		(uuid "6e609904-953a-417e-bda2-0edc744ed4d6")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30005)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 123.6425 67.4375) (xy 123.6425 67.6375) (xy 124.127695 67.814664) (xy 124.2435 67.5375) (xy 124.127695 67.260336)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 124.2435 67.5375) (xy 124.127695 67.814664) (xy 123.6425 67.6375) (xy 123.6425 67.4375) (xy 124.127695 67.260336)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "B.Cu")
+		(uuid "708e44a5-263e-43c4-a539-448053566778")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30020)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 117.492053 76.655574) (xy 117.633474 76.514153) (xy 117.415664 76.045795) (xy 117.137793 76.159893)
+				(xy 117.023695 76.437764)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 117.633474 76.514153) (xy 117.492053 76.655574) (xy 117.023695 76.437764) (xy 117.137793 76.159893)
+				(xy 117.415664 76.045795)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "B.Cu")
+		(uuid "776432cb-c6ae-4e27-bd64-2e599f935604")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30003)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 109.95 93.6427) (xy 109.95 93.4427) (xy 109.464805 93.265536) (xy 109.349 93.5427) (xy 109.464805 93.819864)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 109.95 93.4427) (xy 109.95 93.6427) (xy 109.464805 93.819864) (xy 109.349 93.5427) (xy 109.464805 93.265536)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "B.Cu")
+		(uuid "810d4e01-80b0-40d6-85da-48cf62ec2802")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30004)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 112.3334 75.475) (xy 112.3334 75.275) (xy 111.848205 75.097836) (xy 111.7324 75.375) (xy 111.848205 75.652164)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 112.3334 75.275) (xy 112.3334 75.475) (xy 111.848205 75.652164) (xy 111.7324 75.375) (xy 111.848205 75.097836)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "B.Cu")
+		(uuid "827c03c9-b794-4c0c-b66e-799826aa7129")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30023)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 108.902969 84.7307) (xy 108.902969 84.9307) (xy 109.072836 85.314805) (xy 109.351 85.2) (xy 109.464805 84.922836)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 109.464805 84.922836) (xy 109.351 85.2) (xy 109.072836 85.314805) (xy 108.902969 84.9307) (xy 108.902969 84.7307)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "B.Cu")
+		(uuid "89701b04-ca47-40a5-906f-a4564ce1ace7")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30018)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 120.792526 92.789353) (xy 120.933947 92.930774) (xy 121.402305 92.712964) (xy 121.288207 92.435093)
+				(xy 121.010336 92.320995)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 121.288207 92.435093) (xy 121.402305 92.712964) (xy 120.933947 92.930774) (xy 120.792526 92.789353)
+				(xy 121.010336 92.320995)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "B.Cu")
+		(uuid "b17c159c-2bca-43ec-8786-39ed716ec604")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30009)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 123.6425 78.3371) (xy 123.6425 78.5371) (xy 124.127695 78.714264) (xy 124.2435 78.4371) (xy 124.127695 78.159936)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 124.2435 78.4371) (xy 124.127695 78.714264) (xy 123.6425 78.5371) (xy 123.6425 78.3371) (xy 124.127695 78.159936)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "B.Cu")
+		(uuid "bfc20036-f82f-4354-8e0b-3cf4314a9a72")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30024)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 116.456915 75.620436) (xy 116.598336 75.479015) (xy 116.212132 75.162868) (xy 115.999293 75.374293)
+				(xy 116 75.675)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 116.598336 75.479015) (xy 116.456915 75.620436) (xy 116 75.675) (xy 115.999293 75.374293) (xy 116.212132 75.162868)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "B.Cu")
+		(uuid "c23955f8-aafc-44fc-bab4-9ec288e2eb0c")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30011)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 111.1334 75.275) (xy 111.1334 75.475) (xy 111.618595 75.652164) (xy 111.7344 75.375) (xy 111.618595 75.097836)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 111.7344 75.375) (xy 111.618595 75.652164) (xy 111.1334 75.475) (xy 111.1334 75.275) (xy 111.618595 75.097836)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "B.Cu")
+		(uuid "c7b833cb-13c8-4b09-8e66-fa0aeaed9ab2")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30010)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 113.15 75.275) (xy 113.15 75.475) (xy 113.635195 75.652164) (xy 113.751 75.375) (xy 113.635195 75.097836)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 113.751 75.375) (xy 113.635195 75.652164) (xy 113.15 75.475) (xy 113.15 75.275) (xy 113.635195 75.097836)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "B.Cu")
+		(uuid "d709f7ac-b038-48cd-99b1-78e4db847268")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30017)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 107.8113 75.2751) (xy 107.8113 75.4751) (xy 108.296495 75.652264) (xy 108.4123 75.3751) (xy 108.296495 75.097936)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 108.4123 75.3751) (xy 108.296495 75.652264) (xy 107.8113 75.4751) (xy 107.8113 75.2751) (xy 108.296495 75.097936)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "B.Cu")
+		(uuid "dd4ccd83-573c-479b-8e10-321ac5227d47")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30019)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 116.784947 75.665626) (xy 116.643526 75.807047) (xy 116.861336 76.275405) (xy 117.139207 76.161307)
+				(xy 117.253305 75.883436)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 117.253305 75.883436) (xy 117.139207 76.161307) (xy 116.861336 76.275405) (xy 116.643526 75.807047)
+				(xy 116.784947 75.665626)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "B.Cu")
+		(uuid "e31038ff-cb53-4637-b823-40b8048a2537")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30016)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 98 83.35) (xy 98 83.15) (xy 97.514805 82.972836) (xy 97.399 83.25) (xy 97.514805 83.527164)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 98 83.15) (xy 98 83.35) (xy 97.514805 83.527164) (xy 97.399 83.25) (xy 97.514805 82.972836)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "B.Cu")
+		(uuid "ed4d1dc1-9b6e-403b-aad6-8bf1abe4e6c2")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30021)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 109.01128 75.475) (xy 109.01128 75.275) (xy 108.526105 75.097936) (xy 108.4103 75.3751) (xy 108.526105 75.652264)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 109.01128 75.275) (xy 109.01128 75.475) (xy 108.526105 75.652264) (xy 108.4103 75.3751) (xy 108.526105 75.097936)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "B.Cu")
+		(uuid "f79c2f8e-4e4a-4e52-95b4-a324364b266b")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30015)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 115.5625 93.6427) (xy 115.5625 93.4427) (xy 115.077305 93.265536) (xy 114.9615 93.5427) (xy 115.077305 93.819864)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 115.5625 93.4427) (xy 115.5625 93.6427) (xy 115.077305 93.819864) (xy 114.9615 93.5427) (xy 115.077305 93.265536)
+			)
+		)
+	)
+	(zone
+		(net 1)
+		(net_name "GND")
+		(layer "B.Cu")
+		(uuid "fa797417-8eed-4863-8c12-e1d828b85760")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
 		(priority 30022)
@@ -10863,705 +12032,10 @@
 		(net 1)
 		(net_name "GND")
 		(layer "B.Cu")
-		(uuid "13916584-3d7d-41bd-99eb-fda44d28eba7")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30005)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 123.6425 67.4375) (xy 123.6425 67.6375) (xy 124.127695 67.814664) (xy 124.2435 67.5375) (xy 124.127695 67.260336)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 124.2435 67.5375) (xy 124.127695 67.814664) (xy 123.6425 67.6375) (xy 123.6425 67.4375) (xy 124.127695 67.260336)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "B.Cu")
-		(uuid "1985ce16-04d6-4bd3-bce4-58015dc7cc5b")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30024)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 116.456915 75.620436) (xy 116.598336 75.479015) (xy 116.212132 75.162868) (xy 115.999293 75.374293)
-				(xy 116 75.675)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 116.598336 75.479015) (xy 116.456915 75.620436) (xy 116 75.675) (xy 115.999293 75.374293) (xy 116.212132 75.162868)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "B.Cu")
-		(uuid "241b5125-7058-4c73-89fb-e05d2bffd37f")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30016)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 109.95 93.6427) (xy 109.95 93.4427) (xy 109.464805 93.265536) (xy 109.349 93.5427) (xy 109.464805 93.819864)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 109.95 93.4427) (xy 109.95 93.6427) (xy 109.464805 93.819864) (xy 109.349 93.5427) (xy 109.464805 93.265536)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "B.Cu")
-		(uuid "29ee82be-d34a-4859-8e43-6719527c0fce")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30021)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 109.01128 75.475) (xy 109.01128 75.275) (xy 108.526105 75.097936) (xy 108.4103 75.3751) (xy 108.526105 75.652264)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 109.01128 75.275) (xy 109.01128 75.475) (xy 108.526105 75.652264) (xy 108.4103 75.3751) (xy 108.526105 75.097936)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "B.Cu")
-		(uuid "2f73b478-2718-4ce3-8bbf-2aeb42ffcf9b")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30019)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 117.492053 76.655574) (xy 117.633474 76.514153) (xy 117.415664 76.045795) (xy 117.137793 76.159893)
-				(xy 117.023695 76.437764)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 117.633474 76.514153) (xy 117.492053 76.655574) (xy 117.023695 76.437764) (xy 117.137793 76.159893)
-				(xy 117.415664 76.045795)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "B.Cu")
-		(uuid "3804c735-7cc5-44aa-a92f-6f22202ee8bb")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30018)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 116.784947 75.665626) (xy 116.643526 75.807047) (xy 116.861336 76.275405) (xy 117.139207 76.161307)
-				(xy 117.253305 75.883436)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 117.253305 75.883436) (xy 117.139207 76.161307) (xy 116.861336 76.275405) (xy 116.643526 75.807047)
-				(xy 116.784947 75.665626)
-			)
-		)
-	)
-	(zone
-		(net 42)
-		(net_name "/NRST")
-		(layer "B.Cu")
-		(uuid "59017585-82d9-4f63-8105-65e80ab8ebd1")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30001)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 98.25 87.65) (xy 98.25 87.85) (xy 99.867317 88.67388) (xy 100.251 87.75) (xy 99.867317 86.82612)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 99.871786 86.836973) (xy 99.872166 86.837797) (xy 100.249136 87.745513) (xy 100.249145 87.754467)
-				(xy 100.249136 87.754487) (xy 99.872166 88.662202) (xy 99.865828 88.668529) (xy 99.856874 88.66852)
-				(xy 99.85605 88.66814) (xy 98.256389 87.853254) (xy 98.250573 87.846446) (xy 98.25 87.842829) (xy 98.25 87.65717)
-				(xy 98.253427 87.648897) (xy 98.256387 87.646746) (xy 99.856051 86.831858) (xy 99.864978 86.831157)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "B.Cu")
-		(uuid "6a6476e9-da2b-4e85-b920-4e4b2b004b17")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30015)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 115.5625 93.6427) (xy 115.5625 93.4427) (xy 115.077305 93.265536) (xy 114.9615 93.5427) (xy 115.077305 93.819864)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 115.5625 93.4427) (xy 115.5625 93.6427) (xy 115.077305 93.819864) (xy 114.9615 93.5427) (xy 115.077305 93.265536)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "B.Cu")
-		(uuid "6a88bda0-f787-4c11-923d-b5b9f3d28ca1")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30010)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 112.3334 75.475) (xy 112.3334 75.275) (xy 111.848205 75.097836) (xy 111.7324 75.375) (xy 111.848205 75.652164)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 112.3334 75.275) (xy 112.3334 75.475) (xy 111.848205 75.652164) (xy 111.7324 75.375) (xy 111.848205 75.097836)
-			)
-		)
-	)
-	(zone
-		(net 42)
-		(net_name "/NRST")
-		(layer "B.Cu")
-		(uuid "80d71330-8364-465e-9cdd-cfd0fb8ea7ca")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30000)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 95.75 87.85) (xy 95.75 87.65) (xy 94.132683 86.82612) (xy 93.749 87.75) (xy 94.132683 88.67388)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 94.143125 86.831479) (xy 94.143948 86.831858) (xy 95.743611 87.646745) (xy 95.749427 87.653553)
-				(xy 95.75 87.65717) (xy 95.75 87.842829) (xy 95.746573 87.851102) (xy 95.743611 87.853254) (xy 94.143949 88.66814)
-				(xy 94.135021 88.668842) (xy 94.128213 88.663026) (xy 94.127833 88.662202) (xy 93.750862 87.754485)
-				(xy 93.750854 87.745535) (xy 94.127834 86.837795) (xy 94.134171 86.83147)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "B.Cu")
-		(uuid "87edd6df-7ccd-4fd4-9931-03bf04d59c7f")
+		(uuid "fd468fbd-110f-4ffa-b054-f80cd40dd8ff")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
 		(priority 30014)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 113.15 75.275) (xy 113.15 75.475) (xy 113.635195 75.652164) (xy 113.751 75.375) (xy 113.635195 75.097836)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 113.751 75.375) (xy 113.635195 75.652164) (xy 113.15 75.475) (xy 113.15 75.275) (xy 113.635195 75.097836)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "B.Cu")
-		(uuid "89eba8be-d0ba-4978-89a4-ed7fb2b06ebb")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30003)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 107.8113 75.2751) (xy 107.8113 75.4751) (xy 108.296495 75.652264) (xy 108.4123 75.3751) (xy 108.296495 75.097936)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 108.4123 75.3751) (xy 108.296495 75.652264) (xy 107.8113 75.4751) (xy 107.8113 75.2751) (xy 108.296495 75.097936)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "B.Cu")
-		(uuid "be89589c-ca30-425d-b148-776c5881fa7a")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30013)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 96.8 83.15) (xy 96.8 83.35) (xy 97.285195 83.527164) (xy 97.401 83.25) (xy 97.285195 82.972836)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 97.401 83.25) (xy 97.285195 83.527164) (xy 96.8 83.35) (xy 96.8 83.15) (xy 97.285195 82.972836)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "B.Cu")
-		(uuid "bfaec990-8f86-4834-bfd8-a5fed9b06082")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30017)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 114.3625 93.4427) (xy 114.3625 93.6427) (xy 114.847695 93.819864) (xy 114.9635 93.5427) (xy 114.847695 93.265536)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 114.9635 93.5427) (xy 114.847695 93.819864) (xy 114.3625 93.6427) (xy 114.3625 93.4427) (xy 114.847695 93.265536)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "B.Cu")
-		(uuid "d03aff30-6f66-465b-add2-8e2db0e7e604")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30008)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 123.6425 78.3371) (xy 123.6425 78.5371) (xy 124.127695 78.714264) (xy 124.2435 78.4371) (xy 124.127695 78.159936)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 124.2435 78.4371) (xy 124.127695 78.714264) (xy 123.6425 78.5371) (xy 123.6425 78.3371) (xy 124.127695 78.159936)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "B.Cu")
-		(uuid "d946f0b0-3b9a-4452-beac-24d925e6578d")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30006)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 115.4 75.275) (xy 115.4 75.475) (xy 115.885195 75.652164) (xy 116.001 75.375) (xy 115.885195 75.097836)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 116.001 75.375) (xy 115.885195 75.652164) (xy 115.4 75.475) (xy 115.4 75.275) (xy 115.885195 75.097836)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "B.Cu")
-		(uuid "da6bb451-dea8-4996-af68-96378a878bad")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30002)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 111.1334 75.275) (xy 111.1334 75.475) (xy 111.618595 75.652164) (xy 111.7344 75.375) (xy 111.618595 75.097836)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 111.7344 75.375) (xy 111.618595 75.652164) (xy 111.1334 75.475) (xy 111.1334 75.275) (xy 111.618595 75.097836)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "B.Cu")
-		(uuid "dfc98243-8631-41a5-a097-91787db640fe")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30009)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 102.4875 84.7307) (xy 102.4875 84.9307) (xy 102.972695 85.107864) (xy 103.0885 84.8307) (xy 102.972695 84.553536)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 103.0885 84.8307) (xy 102.972695 85.107864) (xy 102.4875 84.9307) (xy 102.4875 84.7307) (xy 102.972695 84.553536)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "B.Cu")
-		(uuid "e5f10532-01a2-4286-a124-5411341206d3")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30023)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 108.902969 84.7307) (xy 108.902969 84.9307) (xy 109.072836 85.314805) (xy 109.351 85.2) (xy 109.464805 84.922836)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 109.464805 84.922836) (xy 109.351 85.2) (xy 109.072836 85.314805) (xy 108.902969 84.9307) (xy 108.902969 84.7307)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "B.Cu")
-		(uuid "fb529a52-37fa-4f7d-bb2d-4816a46e8553")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30011)
 		(attr
 			(teardrop
 				(type padvia)
@@ -11587,116 +12061,6 @@
 			(layer "B.Cu")
 			(pts
 				(xy 103.6875 84.7307) (xy 103.6875 84.9307) (xy 103.202305 85.107864) (xy 103.0865 84.8307) (xy 103.202305 84.553536)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "B.Cu")
-		(uuid "fd7f7f1a-16af-4c1c-a2a7-23868bfec5d2")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30012)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 98 83.35) (xy 98 83.15) (xy 97.514805 82.972836) (xy 97.399 83.25) (xy 97.514805 83.527164)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 98 83.15) (xy 98 83.35) (xy 97.514805 83.527164) (xy 97.399 83.25) (xy 97.514805 82.972836)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "B.Cu")
-		(uuid "fe17e25e-6429-4536-9822-1532a6928e0e")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30020)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 120.792526 92.789353) (xy 120.933947 92.930774) (xy 121.402305 92.712964) (xy 121.288207 92.435093)
-				(xy 121.010336 92.320995)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 121.288207 92.435093) (xy 121.402305 92.712964) (xy 120.933947 92.930774) (xy 120.792526 92.789353)
-				(xy 121.010336 92.320995)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "B.Cu")
-		(uuid "fff64004-2621-40c4-83b8-b2248cc3a684")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30004)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 121.8875 88.7575) (xy 121.8875 88.5575) (xy 121.402305 88.380336) (xy 121.2865 88.6575) (xy 121.402305 88.934664)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 121.8875 88.5575) (xy 121.8875 88.7575) (xy 121.402305 88.934664) (xy 121.2865 88.6575) (xy 121.402305 88.380336)
 			)
 		)
 	)
